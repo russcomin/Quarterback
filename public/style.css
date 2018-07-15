@@ -567,6 +567,7 @@
 }
 
 .collect {
+	transition: .2s;
 	width: 90%;
 	margin-left: 21px;
 	height: 58px;
@@ -585,6 +586,12 @@
 
 .collect:focus {
 	outline: none;
+}
+
+.collect:hover {
+	transition: .2s;
+	background: none;
+	color: #4ae251;
 }
 
 .adds {
@@ -752,4 +759,353 @@
 
 .card-2 > .prize-image > .prize-img {
 	margin-top: 8px;
+}
+
+/* Modal */
+
+.modal-background{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: -100%;
+	left: 0px;
+	background: rgba(16, 19, 24, .7); 
+	z-index: 100;
+}
+
+.modal-box {
+	width: 790px;
+	height: 560px;
+	background-color: #181c21;
+	position: absolute;
+	top: -2000px;
+	left: 50%;
+	-webkit-transform: translate(-50%,0);
+	border-radius: 5px;
+	border: 1px solid #1a292c;
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.35);
+	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.35);	
+}
+
+
+.modal-header {
+	width: 100%;
+	height: 95px;
+	border-bottom: 1px solid #1a292c;
+	-webkit-box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.25);
+	box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.25);
+}
+
+.modal-title {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.modal-info {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.modal-main-title {
+	font-family: Roboto-Bold;
+	font-size: 14px;
+	color: white;
+	letter-spacing: 1.4px;
+	margin-top: 35px;
+	margin-left: 35px;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+}
+
+.modal-small-title {
+	font-family: Roboto-Regular;
+	font-size: 11px;
+	color: #7c7c7c;
+	margin-left: 35px;
+	margin-top: 4px;
+	letter-spacing: .7px;
+}
+
+.info-box-1 {
+	width: 80px;
+	height: 98%;
+	margin-top: 1px;
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.15);
+	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.15);	
+	float: right;
+	text-align: center;
+	margin-right: 2px;
+}
+
+.rewards-level {
+	font-family: Roboto-Regular;
+	font-size: 14px;
+	color: #3cc843;
+	text-shadow: 0px 1px 5px rgba(60, 200, 67, 1);
+	margin-top: 22px;
+}
+
+.rewards-level > span {
+	font-family: Roboto-Bold;
+	font-size: 24px;
+	letter-spacing: .5px;
+}
+
+.info-help-text {
+	font-family: Rubik-Bold;
+	font-weight: 800;
+	font-size: 9px;
+	color: #454444;
+	letter-spacing: .6px;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, .3);
+	margin-top: 4px;
+}
+
+.info-box-2 {
+	width: 125px;
+	height: 98%;
+	margin-top: 1px;
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.15);
+	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.15);	
+	float: right;
+	text-align: center;
+}
+
+.info-box-2 > .rewards-level span {
+	letter-spacing: 1px;
+	text-shadow: 0px 1px 5px rgba(60, 200, 67, .7);
+}
+
+.token-inline {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.big-token {
+	margin-top: 22px;
+	margin-right: 3px;
+}
+
+.info-box-3 {
+	width: 75px;
+	height: 100%;
+	float: right;
+	margin-right: 0px;
+	text-align: center;
+}
+
+#close {
+	margin-top: 40px;
+	cursor: pointer;
+}
+#close:hover {
+	opacity: .5;
+}
+
+.modal-content {
+	width: 745px;
+	height: 334px;
+	margin: 0 auto;
+	margin-top: 20px;
+	overflow-y: scroll;
+}
+
+/* width */
+.modal-content::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.modal-content::-webkit-scrollbar-track {
+   	height: 40px;
+    border-radius: 5px;
+    background: #202429; 
+}
+
+/* Handle */
+.modal-content::-webkit-scrollbar-thumb {
+    background: #51c357;
+    border-radius: 5px; 
+}
+
+.reward-box {
+	width: 144px;
+	height: 195px;
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.25);
+	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.25);
+	margin-top: 15px;
+	margin-left: 15px;	
+	float: left;
+}
+
+.reward-box-level {
+	width: 100%;
+	height: 40px;
+	background-color: #1f242a;
+}
+
+.reward-level-p {
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	letter-spacing: 1.6px;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, .6);
+}
+
+.reward-box-status {
+	width: 100%;
+	height: 118px;
+	background-color: none;
+	text-align: center;
+}
+
+.completed-level {
+	margin-top: 8px;
+}
+
+.reward-box-footer {
+	width: 100%;
+	height: 37px;
+	background-color: #1d2228;
+	text-align: center;
+}
+
+.amount-collected {
+	color: #36b03c;
+	font-family: Roboto-Bold;
+	font-size: 10px;
+	letter-spacing: 1.2px;
+	line-height: 37px;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, .6);
+}
+
+.reward-f {
+	margin-left: 35px;
+}
+
+.ready-level {
+	width: 112px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 16px;
+	background-image: url(hex-empty.png);
+}
+
+.ready-qbc {
+	margin-top: 29px;
+}
+
+.emount-ready {
+	font-family: Roboto-Bold;
+	font-size: 14px;
+	color: #3ab941;
+	letter-spacing: 1.3px;
+	margin-top: 3px;
+	text-shadow: 0px 1px 5px rgba(60, 200, 67, .6);
+}
+
+.ready > .reward-box-level > .reward-box-footer {
+	transition: .2s;
+	width: 141px;
+	height: 38px;
+	background: #36b03c;
+	border: 1px solid #49e050;
+	cursor: pointer;
+}
+
+.reward-footer-text {
+	font-family: Roboto-Bold;
+	font-size: 10px;
+	color: white;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, .6);
+	line-height: 38px;
+	letter-spacing: 1px;
+}
+
+.ready > .reward-box-level > .reward-box-footer:hover {
+	transition: .2s;
+	background: none;
+	color: #49e050;
+}
+
+.ready > .reward-box-level > .reward-box-footer:hover > .reward-footer-text {
+	transition: .2s;
+	color: #49e050;
+}
+
+.reward-t {
+	margin-top: 35px;
+}
+
+.locked > .reward-box-level > .reward-level-p {
+	color: #455160;
+}
+
+.locked > .reward-box-level > .reward-box-status > .ready-level {
+	background-image: url(locked.png);
+}
+
+.locked > .reward-box-level > .reward-box-status > .ready-level > .emount-ready{
+	color: #455160;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, .4);
+}
+
+.locked > .reward-box-level > .reward-box-footer {
+	width: 141px;
+	height: 38px;
+	background: #181c21;
+	border: 1px solid #262f3c;
+	cursor: pointer;
+	border-radius: 3px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.box-bigger {
+	height: 215px;
+}
+
+.locked > .reward-box-level > .reward-box-footer > .reward-footer-text {
+	color: #455160;
+}
+
+.level-9 {
+	margin-left: 15px;
+}
+
+.modal-footer {
+	width: 100%;
+	height: 75px;
+	border-top: 1px solid #1a292c;
+	margin-top: 30px;
+}
+
+.rewards-text {
+	font-family: Roboto-Regular;
+	font-size: 11px;
+	color: #7c7c7c;
+	letter-spacing: .7px;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, .4);
+	float: left;
+	line-height: 75px;
+	margin-left: 37px;
+}
+
+.rewards-text > span {
+	font-family: Roboto-Bold;
+	color: #3cbf42;
+	font-size: 12px;
+}
+
+.modal-footer .wbp-button {
+	float: right;
+	margin-right: 30px;
 }
