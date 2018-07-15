@@ -208,7 +208,7 @@
 					<img src="public/people.png" class="clubs-img clubs-title-f">
 					<p class="clubs-title clubs-title-f">My Clubs <span>(2)</span></p>
 					<img src="public/+.png" class="plus-clubs">
-					<div class="club-box">
+					<div class="club-box" id="skt">
 						<div class="club-image">
 							<img src="public/club-menu-1.png">
 						</div><!-- end club-image -->
@@ -269,19 +269,19 @@
 					<div class="club-header">
 						<div class="club-info">
 							<div class="club-holder">
-								<img src="public/club-img.png" class="club-img">
+								<img src="public/club-img-2.png" class="club-img">
 							</div><!-- end club-holder -->	
 							<div class="club-main">
 								<div class="title-box">
-									<p class="club-title">SKT T1 Telecom</p>
+									<p class="club-title">Fnatic Europe</p>
 								</div><!-- end title-box -->
 								<div class="owner">
 									<p class="owner-p">OWNER</p>
-									<p class="owner-name">SKT T1 Faker</p>
+									<p class="owner-name">Fnatic xPeke</p>
 								</div><!-- end owner -->
 								<div class="owner o-2">
 									<p class="owner-p">MEMBERS</p>
-									<p class="owner-name">12,576</p>
+									<p class="owner-name">9,376</p>
 								</div><!-- end owner -->
 							</div><!-- end club-main -->
 						</div><!-- end club-info -->
@@ -292,7 +292,7 @@
 							<div class="time-info">
 								<img src="public/i.png" class="i time-fix">
 									<p class="time-title time-fix">SEASON TIME</p>
-									<p class="time-left ">3d 17h 25m</p>
+									<p class="time-left ">1d 02h 15m</p>
 							</div><!-- end time-info -->
 						</div><!-- end season-time -->
 						<div class="progress">
@@ -394,5 +394,11 @@
 	</div><!-- end main-wrapper -->
 	<!-- Scripts -->
 	<script type="text/javascript" src="views/modal.js"></script>
+	<script type="text/javascript">
+		let skt = document.getElementById('skt');
+			skt.addEventListener('click', function (){
+				document.location = "index.html";
+			})
+	</script>
 </body>
 </html>

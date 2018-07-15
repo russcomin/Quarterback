@@ -13,6 +13,10 @@
     src: url(Rubik-Bold.ttf);
 }
 
+body {
+	background: #1e232a;
+}
+
 * {
 	padding: 0px;
 	margin: 0px;
@@ -33,12 +37,14 @@
 	-moz-box-shadow: 0px 1px 14px 2px rgba(0,0,0,0.35);
 	box-shadow: 0px 1px 14px 2px rgba(0,0,0,0.35);
 	position: absolute;
+	z-index: 1;
 }
 
 .header-main {
 	width: 1180px;
 	height: 100%;
 	margin: 0 auto;
+	z-index: 1;
 }
 
 .logo {
@@ -196,6 +202,10 @@
 	margin-right: -507px;
 	background-image: url(clubs.png);
 	text-align: center;
+}
+
+.clubs:hover {
+	cursor: pointer;
 }
 
 .clubs-pick {
@@ -1108,4 +1118,144 @@
 .modal-footer .wbp-button {
 	float: right;
 	margin-right: 30px;
+}
+
+/* clubs menu */
+
+.clubs-menu {
+	width: 266px;
+	height: 0px;
+	opacity: 0;
+	position: absolute;
+	top: 75.3px;
+	background-color: #15181c;
+	border: 1px solid #252b33;
+	margin-left: 835px; 
+	border-top: none;
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.25);
+	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.25);
+	display: none;
+}
+
+.clubs-header {
+	width: 100%;
+	height: 27px;
+	background-color: #1f242a;
+}
+
+.clubs-title-f {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.clubs-img {
+	margin-top: 8px;
+	margin-left: 15px;
+}
+
+.clubs-title {
+	font-family: Roboto-Regular;
+	font-size: 9px;
+	color: white;
+	letter-spacing: 1px;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, .7);
+	margin-top: 7px;
+	margin-left: 3px;
+}
+
+.clubs-title span {
+	font-family: Roboto-Bold;
+	color: #3cc843;
+}
+
+.plus-clubs {
+	float: right;
+	margin-right: 16px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.club-box {
+	width: 100%;
+	height: 65px;
+	background: #20252b;
+	margin-top: 9px;
+	cursor: pointer;
+}
+
+.club-image {
+	width: 50px;
+	height: 100%;
+	float: left;
+	margin-left: 16px;
+}
+
+.club-image > img {
+	margin-top: 11px;
+}
+
+.club-content {
+	width: 150px;
+	height: 100%;
+	float: left;
+}
+
+.club-name {
+	font-family: Roboto-Bold;
+	font-size: 11px;
+	color: white;
+	letter-spacing: 1.6px;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, .8);
+	margin-top: 19px;
+	margin-left: 19px;
+}
+
+.club-owner {
+	margin-top: 2px;
+	margin-left: 19px;
+	font-size: 9px;
+	color: white;
+	font-family: Roboto-Regular;
+	letter-spacing: .8px;
+}
+
+.club-owner > span {
+	font-family: Roboto-Bold;
+	color: #5b5b5b;
+}
+
+.club-more {
+	float: right;
+	margin-right: 22px;
+	margin-top: 20px;
+}
+
+.club-box-2 {
+	margin-top: 1px;
+}
+
+.more-clubs {
+	width: 100%;
+	height: 60px;
+	cursor: pointer;
+}
+
+.more-img {
+	margin-left: 8px;
+	margin-top: 3.4px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.explore-clubs {
+	font-family: Roboto-Regular;
+	font-weight: 600;
+	font-size: 11px;
+	color: #36b03c;
+	letter-spacing: .8px;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, .8);
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 13px;
 }
