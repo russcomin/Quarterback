@@ -266,6 +266,39 @@
 		<div class="main-content">
 			<div class="content-wrapper">
 				<div class="row-1">
+					<div class="season-time-i">
+						<img src="public/tooltip-helper.png" class="tooltip-arrow">
+						<div class="tooltip-header">
+							<p class="tooltip-title">Season Time</p>
+						</div><!-- end tooltip-header -->
+						<p class="tooltip-desc">
+							Season time stands for the <br>
+							time which is left until the <br>
+							end of the current season.
+						</p>
+					</div><!-- end season-time-i -->
+					<div class="season-level-i">
+						<img src="public/tooltip-helper.png" class="tooltip-arrow">
+						<div class="tooltip-header">
+							<p class="tooltip-title">Club Season Level</p>
+						</div><!-- end tooltip-header -->
+						<p class="tooltip-desc">
+							Club Season Level stands <br>
+							for current season level of <br> 
+							your club.
+						</p>
+					</div><!-- end season-time-i -->
+					<div class="season-needed-i">
+						<img src="public/tooltip-helper.png" class="tooltip-arrow">
+						<div class="tooltip-header">
+							<p class="tooltip-title">Club Tokens Needed</p>
+						</div><!-- end tooltip-header -->
+						<p class="tooltip-desc">
+							This number represents how <br>
+							much tokens your club need <br>
+							for next level.
+						</p>
+					</div><!-- end season-time-i -->							
 					<div class="club-header">
 						<div class="club-info">
 							<div class="club-holder">
@@ -290,7 +323,7 @@
 								<img src="public/clock.png" class="clock">
 							</div><!-- end clock-holder -->
 							<div class="time-info">
-								<img src="public/i.png" class="i time-fix">
+								<img src="public/i.png" class="i time-fix" onmouseover="season_time_tooltip()" onmouseleave="season_time_close()" id="time-tip">
 									<p class="time-title time-fix">SEASON TIME</p>
 									<p class="time-left ">3d 17h 25m</p>
 							</div><!-- end time-info -->
@@ -305,11 +338,11 @@
 									</div><!-- end current-tokens -->
 									<div class="bottom-left">
 										<p class="season-level">Club season level 23</p>
-										<img src="public/i-g.png" class="level-i">
+										<img src="public/i-g.png" class="level-i" onmouseover="season_level_tooltip()" onmouseleave="close_level_tooltip()">
 									</div><!-- end bottom-left -->
 									<div class="bottom-right">
 										<p class="tokens-needed t-f">1250 needed</p>
-										<img src="public/i-small.png" class="i-needed  t-f">
+										<img src="public/i-small.png" class="i-needed  t-f" onmouseover="season_needed_tooltip()" onmouseleave="close_season_needed()">
 									</div><!-- end bottom-right -->
 								</div><!-- end current-progress -->
 							</div><!-- end progrress-bar -->
@@ -325,6 +358,28 @@
 					</div><!-- end club-feed -->
 				</div><!-- end row-1 -->
 				<div class="row-2">
+					<div class="my-season-level-i">
+						<img src="public/tooltip-helper.png" class="tooltip-arrow">
+						<div class="tooltip-header">
+							<p class="tooltip-title">My Season Level</p>
+						</div><!-- end tooltip-header -->
+						<p class="tooltip-desc">
+							My season level represents <br>
+							how much levels you have <br>
+							currently achieved.
+						</p>
+					</div><!-- end season-time-i -->
+					<div class="my-needed-i">
+						<img src="public/tooltip-helper.png" class="tooltip-arrow">
+						<div class="tooltip-header">
+							<p class="tooltip-title">My Needed Tokens</p>
+						</div><!-- end tooltip-header -->
+						<p class="tooltip-desc">
+							My season level represents <br>
+							how much levels you have <br>
+							currently achieved.
+						</p>
+					</div><!-- end season-time-i -->										
 					<div class="my-progress">
 						<div class="box-header">
 							<p class="box-title">MY PROGRESS</p>
@@ -339,11 +394,11 @@
 									</div><!-- end current-tokens -->
 									<div class="bottom-left">
 										<p class="season-level">My season level 23</p>
-										<img src="public/i-g.png" class="level-i">
+										<img src="public/i-g.png" class="level-i" onmouseover="my_level_tooltip()" onmouseleave="my_level_close()">
 									</div><!-- end bottom-left -->
 									<div class="bottom-right">
 										<p class="tokens-needed t-f">50 needed</p>
-										<img src="public/i-small.png" class="i-needed  t-f">
+										<img src="public/i-small.png" class="i-needed  t-f" onmouseover="my_needed_tooltip()" onmouseleave="close_my_needed()">
 									</div><!-- end bottom-right -->
 								</div><!-- end current-progress -->
 							</div><!-- end progrress-bar -->
