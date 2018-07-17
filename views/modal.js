@@ -132,3 +132,13 @@ function close_my_needed() {
 	this.tool_tip_box = document.getElementsByClassName('my-needed-i')[0];
 	this.tool_tip_box.style.display = "none";
 }
+
+function owner_card() {
+	this.tool_tip_box = document.getElementsByClassName('profile-popup')[0];
+	this.tool_tip_box.style.display = "block";
+}
+
+function owner_close() {
+	this.tool_tip_box = document.getElementsByClassName('profile-popup')[0];
+	this.tool_tip_box.style.display = "none";
+}

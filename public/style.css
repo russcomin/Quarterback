@@ -358,12 +358,21 @@ body {
 }
 
 .owner-name {
+	transition: .3s;
 	font-family: Roboto-Regular;
 	font-size: 12px;
 	color: white;
 	letter-spacing: .7px;
 	margin-top: 3px;
 	text-shadow: 0px 1px 9px #000000;
+}
+
+.main-name:hover {
+	transition: .3s;
+	border-bottom: 2px solid white;
+	padding-bottom: 4px;
+	cursor: pointer;
+	opacity: .6;
 }
 
 .o-2 {
@@ -720,12 +729,19 @@ body {
 }
 
 .prize-card {
+	transition: .3s;
 	width: 100%;
 	height: 75px;
 	background-color: #1a1e23;
 	-webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.22);
 	-moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.22);
 	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.22);
+}
+
+.prize-card:hover {
+	transition: .3s;
+	opacity: .6;
+	cursor: pointer;
 }
 
 .prize-image {
@@ -830,13 +846,13 @@ body {
 }
 
 .modal-title {
-	width: 50%;
+	width: 40%;
 	height: 100%;
 	float: left;
 }
 
 .modal-info {
-	width: 50%;
+	width: 60%;
 	height: 100%;
 	float: left;
 }
@@ -909,6 +925,22 @@ body {
 
 .info-box-2 > .rewards-level span {
 	letter-spacing: 1px;
+	text-shadow: 0px 1px 5px rgba(60, 200, 67, .7);
+}
+
+.info-box-4 {
+	width: 125px;
+	height: 98%;
+	margin-top: 1px;
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.15);
+	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.15);	
+	float: right;
+	text-align: center;
+}
+
+.info-box-4 > .rewards-level span {
+	letter-spacing: .1px;
 	text-shadow: 0px 1px 5px rgba(60, 200, 67, .7);
 }
 
@@ -1198,11 +1230,17 @@ body {
 }
 
 .club-box {
+	transition: .3s;
 	width: 100%;
 	height: 65px;
 	background: #20252b;
 	margin-top: 9px;
 	cursor: pointer;
+}
+
+.club-box:hover {
+	transition: .3s;
+	opacity: .5;
 }
 
 .club-image {
@@ -1401,4 +1439,49 @@ body {
 	float: right;
 	margin-left: 0px;
 	margin-right: 12px;
+}
+
+
+.profile-popup {
+	position: absolute;
+	width: 175px;
+	height: 92px;
+	background-color: #181c21;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-top: 147px;
+	margin-left: 172px;
+	display: block;
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.25);
+	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.25);
+	display: none;
+}
+
+
+.owners-img {
+	width: 42px;
+	height: 42px;
+	margin-top: 3px;
+	float: left;
+}
+
+.owner-tip-name {
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	color: #6e6e6e;
+	letter-spacing: .6px;
+	text-shadow: 0px 1px 5px rgba(0, 0, 0, .6);
+	float: left;
+	margin-top: 8px;
+	margin-left: 15px;
+}
+
+.bolded {
+	font-family: Roboto-Bold;
+	color: #36b03c;
+	font-size: 8px;
+	text-shadow: none;
+	letter-spacing: 1px;
+	margin-top: 4px;
 }
