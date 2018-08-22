@@ -9,6 +9,12 @@ let collect_button,
 
 var counter = 0;
 
+
+this.startGame = document.getElementsByClassName('wbp-button')[1];
+this.startGame.addEventListener('click',function() {
+	document.location = "in-game-modal.html";
+})
+
 // getting dom elements 
 collect_button = document.getElementById('collect-rewards');
 modal_bg = document.getElementById('modal-bg');

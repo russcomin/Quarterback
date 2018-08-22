@@ -1,0 +1,291 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Bold;
+    src: url(Rubik-Bold.ttf);
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.game-container {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(game-screenshoot.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.lower-opacity {
+	background: #1b2324;
+	z-index: 100;
+	width: 100vw;
+	height: 100vh;
+	opacity: .3;
+}
+
+.game-modal {
+	width: 369px;
+	height: 308px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: rgba(22, 33, 33, .8);
+	border-right: 1px solid #3e3f3f;
+	border-bottom: 1px solid #3e3f3f;
+	margin-left: 1px;
+}
+	
+.modal-header {
+	width: 100%;
+	height: 68px;
+	background-image: url(modal-bg.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	z-index: 1;
+}
+
+.logo {
+	margin-top: 21px; 
+}
+
+.club-card {
+	width: 100%;
+	height: 130px;
+	background: #1f252b;
+	background-image: url(club-bg.png);
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.card-wrapper {
+	width: 100%;
+	height: 130px;
+	background-image: url(picker-bg.png);
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.row-1 {
+	float: left;
+	width: 100%;
+	height: 100px;
+}
+
+.club-logo {
+	float: left;
+	height: 100%;
+	width: 32%;
+}
+
+.row-1-big {
+	float: left;
+	height: 100%;
+	width: 68%;
+}
+
+.rank-label {
+	float: left;
+	width: 100%;
+	height: 30px;
+}
+
+.info-label {
+	float: left;
+	width: 100%;
+	height: 70px;
+}
+
+.logo-bg {
+	margin-left: 16px;
+	margin-top: 5px;
+	position: absolute;
+}
+
+.club-img {
+	position: absolute;
+	margin-left: 34px;
+	margin-top: 30px;
+}
+
+.club-name {
+	font-family: Roboto-Bold;
+	font-size: 18px;
+	color: #34a43a;
+	letter-spacing: .8px;
+	margin-left: 17px;
+	margin-top: 2px;
+	text-shadow: 0px 0px 21px rgba(55, 164, 59, 0.96);
+}
+
+.owner-label {
+	color: #656464;
+	font-size: 9px;
+	font-family: Rubik-Bold;
+	letter-spacing: .9px;
+	margin-left: 17px;
+	margin-top: 7px;
+	text-shadow: 0px 0px 21px rgba(0, 0, 0, 0.56);
+}	
+
+.owner-name {
+	color: white;
+	text-shadow: 0px 0px 21px rgba(0, 0, 0, 0.56);
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	letter-spacing: 1px;
+	margin-left: 17px;
+	margin-top: 3px;
+}
+
+.rank-label-bg {
+	float: right;
+}
+
+.club-rank {
+	color: #a3a3a3;
+	font-size: 7.8px;
+	font-family: Rubik-Bold;
+	letter-spacing: .6px;
+	text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.82);
+	position: absolute;
+	margin-left: 148px;
+	margin-top: 7px;
+}
+
+.club-rank > span {
+	color: #39bb40;
+	font-size: 11px;
+	font-family: Roboto-Regular;
+}
+
+.row-2 {
+	float: left;
+	width: 100%;
+	height: 30px;
+}
+
+.seasson-level {
+	color: #cecece;
+	font-family: Roboto-Regular;
+	font-size: 10.5px;
+	line-height: 30px;
+	margin-left: 17px;
+	letter-spacing: .6px;
+	text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.82);
+	float: left;
+}
+
+.seasson-level > span {
+	font-family: Roboto-Bold;
+	font-size: 12.5px;
+	color: #39bb40;
+}
+
+.change {
+	width: 77px;
+	height: 27px;
+	float: right;
+	transition: .3s;
+	  background: #232a30;
+	  border-radius: 3px;
+	  border: none;
+	  cursor: pointer;
+	  border: 1px solid #363e48;
+	  border-right: none;
+	  border-top-right-radius: 0px;
+	  border-bottom-right-radius: 0px;
+	  color: #717c8a;
+	  font-family: Rubik-Bold;
+	  font-weight: 1000;
+	  letter-spacing: .3px;
+	  font-size: 7.888px;
+	  margin-top: 2px;
+	-webkit-box-shadow: inset 0px 0px 35px 0px rgba(0,0,0,0.46);
+	-moz-box-shadow: inset 0px 0px 35px 0px rgba(0,0,0,0.46);
+	box-shadow: inset 0px 0px 35px 0px rgba(0,0,0,0.46);
+	text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.59);
+}
+
+.change:hover {
+	  transition: .3s;
+  background: #363e48;
+  -webkit-box-shadow: 0px 0px 35px -4px rgba(0,0,0,0.46);
+-moz-box-shadow: 0px 0px 35px -4px rgba(0,0,0,0.46);
+box-shadow: 0px 0px 35px -4px rgba(0,0,0,0.46);
+}
+
+.CTA {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.play-for-club {
+	 transition: .3s;
+  width: 232px;
+  height: 49px;
+  background: #209b26;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid #4ae251;
+  color: white;
+  font-family: Roboto-Bold;
+  font-weight: 500;
+  letter-spacing: .9px;
+  font-size: 11px;
+-webkit-box-shadow: inset 0px 0px 35px 0px rgba(0,0,0,0.36);
+-moz-box-shadow: inset 0px 0px 35px 0px rgba(0,0,0,0.36);
+box-shadow: inset 0px 0px 35px 0px rgba(0,0,0,0.46);
+text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.59);
+margin-top: 18px;
+}
+
+.play-for-club:hover {
+	transition: .3s;
+  background: #4ae251;
+  -webkit-box-shadow: 0px 0px 35px -4px rgba(0,0,0,0.46);
+-moz-box-shadow: 0px 0px 35px -4px rgba(0,0,0,0.46);
+box-shadow: 0px 0px 35px -4px rgba(0,0,0,0.46);
+}
+
+.play-for-club > span {
+  font-family: Roboto-Regular;
+  font-size: 9px;
+}
+
+button, input:focus {outline: none}
+
+.skip {
+	color: #929191;
+	font-size: 9px;
+	cursor: pointer;
+	font-family: Roboto-Bold;
+	margin-top: 13px;
+}
+
+.skip > span {
+	color: #e9e9e9;
+	font-family: Roboto-Regular;
+	letter-spacing: .4px;
+}
+
+.skip:hover {
+	opacity: .6;
+}
