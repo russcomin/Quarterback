@@ -40,3 +40,7 @@ function openMenu() {
 	if (close_counter > 2) { closeMenu(); }
 }
 
+let match = document.getElementsByClassName('match')[0];
+	match.addEventListener('click', function() {
+		document.location = "match.html";
+	})

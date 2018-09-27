@@ -1,0 +1,1125 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Bold;
+    src: url(fonts/Rubik-Bold.ttf);
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.container {
+	width: 100%;
+	height: 970px;
+	background: #141b23;
+}
+
+.wrapper {
+	width: 1080px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.d-shadow {
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.62);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.62);
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.62);
+}
+
+.header-wrapper {
+	width: 100%;
+	height: 55px;
+	background: #0d1117;
+	border-bottom: 1px solid #2c3948;
+	position: fixed;
+	z-index: 1000;
+}
+
+.header {
+	width: 1110px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left; 
+	width: 192px;
+	height: 100%;
+	background: #141a22;
+	text-align: center;
+	cursor: pointer;
+}
+
+.logo-img {
+	width: 130px;
+	height: 25px;
+	margin-top: 16px;
+}
+
+.search {
+	width: 562px;
+	height: 100%;
+	float: left;
+}
+
+.search-img {
+	margin-left: 19px;
+	float: left;
+	margin-top: 16px;
+	cursor: pointer;
+}
+
+.search-field {
+	float: left;
+	background: none;
+	border: none;
+	color: white;
+	margin-left: 18px;
+	margin-top: 22px;
+	font-family: Roboto-Regular;
+	font-size: 11px;
+
+}
+
+.search-field::-webkit-input-placeholder {
+	font-family: Roboto-Bold;
+	font-size: 10px;
+	color: #787878;
+	letter-spacing: .2px;
+}
+
+.search-field:focus { outline: none; }
+
+.user {
+	float: left;
+	width: 215px;
+	height: 100%;
+}
+
+.user-avatar {
+	margin-top: 4px;
+	cursor: pointer;
+	float: left;
+}
+
+.user-name {
+	float: left;
+	font-family: Roboto-Bold;
+	font-size: 12px;
+	color: #40e449;
+	letter-spacing: .6px;
+	margin-left: 8px;
+	margin-top: 14px;
+}
+
+.club > span {
+	font-family: Roboto-Bold;
+	color: #636363;
+}
+
+.club {
+	float: left;
+	color: #fbfbfb;
+	font-family: Roboto-Regular;
+	font-size: 10px;
+	margin-top: 3px;
+	margin-left: 8px;
+	letter-spacing: .3px;
+}
+
+.arrow {
+	transition: .3s;
+	float: right;
+	width: 20px;
+	height: 18px;
+	border-radius: 3px;
+	background: #0a0e13;
+	border: 1px solid #293545;
+	cursor: pointer;
+	margin-top: -9px;
+	margin-right: 10px; 
+}
+
+.arrow:hover {
+	background: #293545;
+	transition: .3s;
+}
+
+.arrow-img {
+	float: left;
+	margin-top: 7.4px;
+	margin-left: 5px;
+}
+
+.rank {
+	float: left;
+	width: 90px;
+	height: 100%;
+}
+
+.rank-line {
+	border: none;
+	background: #202429;
+	width: 1px;
+	height: 29px;
+	margin-top: 14px;
+	margin-left: 7px;
+	float: left;
+}
+
+.rank-static {
+	float: left;
+	color: #575a5e;
+	font-family: Roboto-Bold;
+	font-weight: 800;
+	font-size: 9px;
+	margin-left: 25px;
+	margin-top: 15px;
+}
+
+.rank-name {
+	float: left;
+	font-family: Rubik-Bold;
+	font-size: 12px;
+	color: #4ae252;
+	letter-spacing: .5px;
+	margin-left: 14px;
+	margin-top: 3px;
+	cursor: pointer;
+}
+
+.v2 {
+	float: right;
+	margin-top: -12px;
+	margin-right: 4px;
+}
+
+.notification {
+	float: left;
+	height: 100%;
+	width: 42px;
+	text-align: center;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.number-bubble {
+	transition: .2s;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #3ac742;
+	border: 2px solid #0d1117;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: -33px;
+	text-align: center;
+	font-size: 8px;
+}
+
+.notification:hover > .number-bubble {
+	transition: .2s;
+	width: 14px;
+	height: 14px;
+	font-size: 10px;
+}
+
+.n-number {
+	font-family: Roboto-Bold;
+	color: white;
+}
+
+.wrapper {
+	width: 1082px;
+	height: 900px;
+}
+
+.club-page {
+	float: left;
+	width: 663px;
+	height: 880px;
+	background: #182029;
+	border: 1px solid #293440;
+	margin-top: 70px;
+}
+
+.chat {
+	margin-left: 14px;
+	float: left;
+	width: 400px;
+	height: 300px;
+	background: #182029;
+	border: 1px solid #293440;
+	margin-top: 70px;
+}
+
+.chat-header {
+	height: 25px;
+	float: left;
+	width: 100%;
+}
+
+.messages-number {
+	width: 131px;
+	height: 19px;
+	background: #3ac742;
+	margin: 0 auto;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	text-align: center;
+}
+
+.messages-number > p {
+	font-family: Rubik-Bold;
+	font-size: 9px;
+	color: white;
+	line-height: 19px;
+	letter-spacing: .5px;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.34);
+}
+
+.message-box {
+	width: 100%;
+	height: 41px;
+	float: left;
+}
+
+.message-content {
+	width: 308px;
+	height: 100%;
+	float: left;
+}
+
+.message-time {
+	width: 92px;
+	height: 100%;
+	float: left;
+}
+
+.message-content > img {
+	float: left;
+	width: 33px;
+	height: 33px;
+	margin-top: 4px;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+.message-content > p {
+	font-family: Roboto-Regular;
+	font-size: 11px;
+	color: #a2a2a2;
+	letter-spacing: .4px;
+	margin-left: 10px;
+	float: left;
+}
+
+.message-content > p > span {
+	font-family: Roboto-Bold;
+	color: #3dd447;
+	cursor: pointer;
+}
+
+/* p-fixes */
+
+.b-w { color: white; cursor: pointer; }
+
+.first-p {
+	margin-top: 13px;
+}
+
+.second-p {
+	margin-top: 8px;
+}
+
+.message-time > p {
+	color: #7b7b7b;
+	font-family: Roboto-Bold;
+	font-size: 9px;
+	letter-spacing: .4px;
+	margin-top: 14px;
+	text-align: center;
+	margin-right: 4px;
+}
+
+.message-input {
+	width: 100%;
+	height: 69px;
+	float: left;
+}
+
+.input-box {
+	width: 294px;
+	height: 49px;
+	background: #232d38;
+	border-radius: 50px;
+	margin-left: 16px;
+	margin-top: 10px;
+	float: left;
+}
+
+.input-box > input {
+	border: none;
+	background: none;
+	width: 190px;
+	color: white;
+	margin-top: 17px;
+	margin-left: 25px;
+	font-family: Roboto-Regular;
+	font-size: 11px;
+	letter-spacing: .5px;
+}
+
+.input-box > input:focus { outline: none; }
+
+.input-box > input::-webkit-input-placeholder {
+	font-family: Roboto-Regular;
+	font-size: 10px;
+	color: #9e9e9e;
+	letter-spacing: .1px;
+}
+
+.input-box > img {
+	float: right;
+	margin-top: 17px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.message-button {
+	transition: .2s;
+	width: 44px;
+	height: 44px;
+	background: #35b83d;
+	border: 3px solid #40e449;
+	border-radius: 50%;
+	float: right;
+	margin-top: 9px;
+	margin-right: 23px;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0px 0px 35px 8px rgba(0,0,0,0.36);
+	-moz-box-shadow: inset 0px 0px 35px 8px rgba(0,0,0,0.36);
+	box-shadow: inset 0px 0px 35px 8px rgba(0,0,0,0.36);
+	text-align: center;
+}
+
+.message-button:hover {
+	transition: .2s;
+	background: #40e449;
+}
+
+.message-button > img {
+	margin-top: 11px;
+}
+
+/* CLUBS MODAL */
+
+.clubs-menu {
+	position: absolute;
+	width: 438px;
+	height: 0px;
+	background: #182029;
+	border: 1px solid #293440;
+	z-index: 1;
+	margin-left: 520px;
+	border-top: none;
+	margin-top: 55px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.menu-wrapper {
+	width: 405px;
+	height: 220px;
+	margin: 0 auto;
+	margin-top: 15px;
+	display: none;
+}
+
+.menu-header {
+	width: 100%;
+	height: 20px;
+}
+
+.my-clubs {
+	font-family: Rubik-Bold;
+	font-size: 8px;
+	opacity: .4;
+	letter-spacing: 1px;
+	color: white;
+	float: left;
+	margin-left: 2px;
+}
+
+.more {
+	float: right;
+	font-size: 8px;
+	color: #46ca4e;
+	font-family: Roboto-Bold;
+	letter-spacing: .4px;
+	margin-top: -2px;
+	cursor: pointer;
+}
+
+.club-card {
+	width: 120px;
+	height: 188px;
+	background: #1c252f;
+	border: 1px solid #2d3844;
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.32);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.32);
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.32);
+	border-radius: 5px;
+	cursor: pointer;
+	background: url(images/active-clubb.png);
+	text-align: center;
+	float: left;
+}
+
+.club-rank {
+	font-family: Rubik-Bold;
+	font-size: 24px;
+	color: #404c58;
+	margin-top: 8px;
+}
+
+.team-img {
+	margin-top: 8px;
+}
+
+.club-name {
+	font-family: Roboto-Bold;
+	font-size: 12px;
+	color: white;
+	letter-spacing: .6px;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.54);
+	margin-top: 11px;
+}
+
+.members-icon {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.team-members {
+	vertical-align: middle;
+	display: inline-block;
+	font-family: Roboto-Bold;
+	font-size: 10px;
+	color: #3cc843;
+}
+
+.normal-card {
+	background: none;
+	background: #1c252f;
+	margin-left: 19px;
+}
+
+.first-half {
+	width: 100%;
+	height: 50%;
+	background: red;
+	position: absolute;
+	z-index: 1200;
+}
+
+.second-half {
+	width: 100%;
+	height: 50%;
+	background: blue;
+	position: absolute;
+	z-index: 1200;
+	top: 50%;
+}
+
+.ads {
+	width: 400px;
+	height: 300px;
+	float: left;
+	margin-top: 14px;
+	margin-left: 14px;
+	background: #182029;
+	border: 1px solid #293440;
+}
+
+.match-header {
+	width: 100%;
+	height: 103px;
+	background-image: url(images/match-header.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.team-1-info {
+	float: left;
+	height: 100%;
+	width: 186px;
+}
+
+.team-1-img {
+	float: left;
+	height: 100%;
+	width: 110px;
+}
+
+.match-center {
+	float: left;
+	height: 100%;
+	width: 69px;
+	text-align: center;
+}
+
+.team-2-img {
+	float: left;
+	height: 100%;
+	width: 116px;
+}
+
+.team-2-info {
+	float: left;
+	height: 100%;
+	width: 182px;
+}
+
+.team-1-rank {
+	font-family: Rubik-Bold;
+	font-size: 24px;
+	color: #276436;
+	float: left;
+	margin-left: 83px;
+	margin-top: 18px;
+}
+
+.team-1-name {
+	font-family: Rubik-Bold;
+	font-size: 16px;
+	color: #3cc843;
+	float: left;
+	letter-spacing: .8px;
+	margin-left: 43px;
+	margin-top: 2px;
+	cursor: pointer;
+}
+
+.team-1-icon {
+	float: left;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 78px;
+	margin-top: 8px;
+}
+
+.team-1-members {
+	float: left;
+	vertical-align: middle;
+	display: inline-block;
+	font-family: Roboto-Bold;
+	font-size: 12px;
+	color: #3cc843;
+	letter-spacing: .7px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.team-1-logo {
+	float: left;
+	margin-left: 6px;
+	margin-top: 9px;
+	cursor: pointer;
+}
+
+.team-2-logo {
+	float: left;
+	margin-top: 9px;
+	margin-left: 2px;
+}
+
+.team-2-rank {
+	font-family: Rubik-Bold;
+	font-size: 24px;
+	color: #275d65;
+	float: left;
+	margin-left: 31px;
+	margin-top: 18px;
+}
+
+.team-2-name {
+	float: left;
+	font-family: Rubik-Bold;
+	font-size: 16px;
+	color: #24c1cc;
+	letter-spacing: .8px;
+	margin-left: 6px;
+	margin-top: 2px;
+	cursor: pointer;
+}
+
+.team-2-icon {
+	float: left;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: -80px;
+	margin-top: 28px;
+}
+
+.team-2-members {
+	float: left;
+	vertical-align: middle;
+	display: inline-block;
+	font-family: Roboto-Bold;
+	font-size: 12px;
+	color: #24c1cc;
+	letter-spacing: .7px;
+	margin-top: 25px;
+	margin-left: -62px;
+}
+
+.score-1 {
+	font-family: Rubik-Bold;
+	font-size: 28px;
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 20px;
+	margin-top: 8px;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.34);
+}
+
+.score-line {
+	position: absolute;
+	margin-top: 26px;
+	margin-left: -25px;
+}
+
+.score-2 {
+	font-family: Rubik-Bold;
+	font-size: 28px;
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 8px;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.34);
+}
+
+.match-vs {
+	margin-top: 4px;
+}
+
+.time-left {
+	font-family: Roboto-Regular;
+	font-size: 10px;
+	color: #3cc843;
+	margin-top: 6px;
+	letter-spacing: .3px;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.34);
+}
+
+.score-bar {
+	width: 100%;
+	height: 40px;
+	background: #181f26;
+	border: 1px solid #323a43;
+	border-right: none;
+	border-left : none;
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);	
+}
+
+.point-time {
+	width: 235px;
+	height: 100%;
+	float: left;
+}
+
+.green-points {
+	width: 95px;
+	height: 100%;
+	float: left;
+}
+
+.space {
+	width: 8px;
+	height: 100%;
+	float: left;
+}
+
+.blue-points {
+	width: 98px;
+	height: 100%;
+	float: left;
+}
+
+.play-t {
+	width: 227px;
+	height: 100%;
+	float: left;
+}
+
+.point-time > img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 13px;
+	margin-left: 12px;
+}
+
+.point-time > p {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 10px;
+	color: #949494;
+	font-family: Roboto-Regular;
+	letter-spacing: .2px;
+	margin-top: 10px;
+	margin-left: 6px;
+}
+
+.point-time > p > span {
+	font-family: Roboto-Bold;
+	font-size: 10px;
+	color: #4ae252;
+	letter-spacing: .4px;
+}
+
+.gp-bg {
+	position: absolute;
+	margin-top: 9px;
+	margin-left: 16px;
+}
+
+.bp-bg {
+	position: absolute;
+	margin-top: 13px;
+	margin-left: 10px;
+}
+
+
+.green-trophy {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 24px;
+	margin-top: 15px;
+}
+
+.green-score {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 16px;
+	margin-left: 7px;
+	font-family: Roboto-Bold;
+	font-size: 11px;
+	color: #4ae252;
+	letter-spacing: 1px;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.34);
+}
+
+.blue-trophy {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 16px;
+	margin-left: 19px;
+}
+
+.blue-score {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 16px;
+	margin-left: 8px;
+	font-family: Roboto-Bold;
+	font-size: 11px;
+	color: #38cad8;
+	letter-spacing: 1px;
+}
+
+.space > p {
+	color: #4f5254;
+	font-family: Roboto-Bold;
+	font-size: 20px;
+	text-align: center;
+	line-height: 42px;
+}
+
+.play-t > img {
+	float: right;
+	cursor: pointer;
+	margin-top: 3px;
+	margin-right: 11px;
+}
+
+.messages-wrapper {
+	width: 640px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.message-1 {
+	width: 516px;
+	height: 104px;
+	background: #1c252f;
+	background: url(images/msg-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid #4ae252;
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);	
+	margin-left: 12px;
+	float: left;
+}
+
+.mg-1 {
+	position: absolute;
+	margin-left: -14px;
+	margin-top: 41px;
+}
+
+.msg-top {
+	width: 100%;
+	height: 67px;
+}
+
+.msg-bottom {
+	width: 100%;
+	height: 37px;
+}
+
+.msg-avatar {
+	margin-top: 13px;
+	margin-left: 15px;
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	float: left;
+}
+
+.msg-name {
+	font-family: Rubik-Bold;
+	font-size: 12px;
+	color: #4ae252;
+	letter-spacing: .9px;
+	float: left;
+	margin-left: 17px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.msg-name > span {
+	font-family: Roboto-Regular;
+	font-size: 10px;
+	color: #a1a1a1;
+	letter-spacing: 0px;
+}
+
+.msg-desc {
+	float: left;
+	margin-left: 17px;
+	font-family: Roboto-Regular;
+	font-size: 11px;
+	color: #d5d5d5;
+	margin-top: 7px;
+	letter-spacing: .3px;
+}
+
+.msg-desc > span {
+	color: #3fbe48;
+	cursor: pointer;
+}
+
+.buttons {
+	float: left;
+	width: 350px;
+	height: 100%;
+}
+
+.time-ago {
+	width: 160px;
+	height: 100%;
+	float: left;
+}
+
+.button-wrapper {
+	width: auto;
+	height: 100%;
+	float: left;
+	margin-left: 13px;
+	cursor: pointer;
+}
+
+.button-wrapper > img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 7px;
+}
+
+.button-wrapper > p {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 7px;
+	font-family: Roboto-Bold;
+	font-size: 11px;
+	color: #328343;
+	letter-spacing: .4px;
+	margin-left: 2px;
+}
+
+.time-ago > p{
+	float: right;
+	font-family: Roboto-Bold;
+	font-size: 9px;
+	color: #6c6c6c;
+	letter-spacing: .4px;
+	margin-top: 9px;
+	margin-right: 13px;
+}
+
+.message-2 {
+	width: 610px;
+	height: 446px;
+	background: #151c24;
+	border: 1px solid #1a3d46;
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);	
+	margin-left: 12px;
+	float: right;
+	margin-top: 15px;
+	margin-right: 13px;
+}
+
+.mg-2 {
+	float: right;
+	margin-right: -14px;
+	margin-top: 81px;
+}
+
+.mg-blue-top {
+	width: 100%;
+	height: 67px;
+	float: left;
+}
+
+.mg-blue-vid {
+	width: 576px;
+	height: 324px;
+	border: 1px solid #343f4c;
+	float: left;
+	margin-left: 16px;
+}
+
+.mg-blue-top > .msg-avatar {
+	margin-top: 10px;
+	margin-left: 17px;
+}
+
+.mg-blue-top > .msg-name {
+	color: #24c1cc;
+	margin-top: 18px;
+}
+
+.mg-blue-top > .msg-desc {
+	margin-top: 3px;
+}
+
+.contribution {
+	width: 70px;
+	height: 40px;
+	position: absolute;
+	margin-left: 540px;
+}
+
+.contribution > p {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 11px;
+	color: #24b6c0;
+	font-family: Roboto-Regular;
+	letter-spacing: .3px;
+	margin-top: 23px;
+	margin-left: 15px;
+}
+
+.contribution > img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 23px;
+	margin-left: 3px;
+}
+
+.green-c {
+	margin-left: 325px;
+}
+
+.green-c > p {
+	margin-top: 18px;
+	color: #4ae252;
+}
+
+.green-c > img {
+	margin-top: 17px;
+}
+
+.message-2 > .msg-bottom {
+	float: left;
+	height: 50px;
+}
+
+.message-2 > .msg-bottom > .buttons {
+	height: 30px;
+	margin-left: 3px;
+	margin-top: 10px;
+}
+
+.message-2 > .msg-bottom > .buttons > .button-wrapper > p {
+	color: #3b859c;
+}
+
+.message-2 > .msg-bottom > .time-ago {
+	float: right;
+}
+
+.message-2 > .msg-bottom > .time-ago > p {
+	margin-top: 20px;
+	margin-right: 19px;
+}
+
+.msg-3 {
+	margin-top: 19px;
+	background: #151c24;
+	border: 1px solid #275b35;
+	width: 400px;
+}
+
+.msg-3 > .msg-bottom > .buttons {
+	width: 295px;
+}
+
+.msg-3 > .msg-bottom > .time-ago {
+	width: 100px;
+}

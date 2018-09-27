@@ -1359,3 +1359,20 @@ ul {
 	background: #1c252f;
 	margin-left: 19px;
 }
+
+.first-half {
+	width: 100%;
+	height: 50%;
+	background: red;
+	position: absolute;
+	z-index: 1200;
+}
+
+.second-half {
+	width: 100%;
+	height: 50%;
+	background: blue;
+	position: absolute;
+	z-index: 1200;
+	top: 50%;
+}

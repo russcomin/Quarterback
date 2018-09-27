@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quarterback</title>
+	<link rel="stylesheet" type="text/css" href="public/match.css">
+	 <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+  integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+  crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="header-wrapper d-shadow">
+			<div class="header">
+				<!-- CLUBS MODAL -->
+				<div class="clubs-menu d-shadow">
+					<div class="menu-wrapper">
+						<div class="menu-header">
+							<p class="my-clubs">MY CLUBS</p>
+							<p class="more">+ MORE CLUBS</p>
+						</div><!-- end menu-header -->
+						<div class="club-card main-club">
+							<p class="club-rank">#15</p>
+							<img src="public/images/team-1.png" class="team-img">
+							<p class="club-name">SKT T1 Telecom</p>
+							<p></p>
+							<img src="public/images/members.png" class="members-icon">
+							<p class="team-members">3,670</p>
+						</div><!-- end club-card -->
+						<div class="club-card normal-card">
+							<p class="club-rank">#43</p>
+							<img src="public/images/team-3.png" class="team-img">
+							<p class="club-name">H2K Europe</p>
+							<p></p>
+							<img src="public/images/members.png" class="members-icon">
+							<p class="team-members">2,512</p>
+						</div><!-- end club-card -->
+						<div class="club-card normal-card">
+							<p class="club-rank">#68</p>
+							<img src="public/images/team-4.png" class="team-img">
+							<p class="club-name">Heretics TM</p>
+							<p></p>
+							<img src="public/images/members.png" class="members-icon">
+							<p class="team-members">1,415</p>
+						</div><!-- end club-card -->				
+					</div><!-- end menu-wrapper -->
+				</div><!-- end clubs-menu -->
+				<div class="logo">
+					<img src="public/images/logo.png" class="logo-img">
+				</div><!-- end logo -->
+				<div class="search">
+					<img src="public/images/search.png" class="search-img">
+					<input type="text" name="search" class="search-field" placeholder="Search clubs, players...">
+				</div><!-- end search -->
+				<div class="user">
+					<img src="public/images/avatar.png" class="user-avatar d-shadow">
+					<p class="user-name">Jovan1501</p>
+					<p class="club"><span>Club:</span> SKT T1 Telecom</p>
+					<div class="arrow d-shadow">
+							<img src="public/images/arrow.png" class="arrow-img">
+					</div><!-- end arrow -->
+				</div><!-- end user -->
+				<div class="rank">
+					<hr class="rank-line">
+					<p class="rank-static">RANK</p>
+					<p class="rank-name">Major 3</p>
+					<hr class="rank-line v2">
+				</div><!-- end rank -->	
+				<div class="notification">
+					<img src="public/images/notif.png">
+					<div class="number-bubble d-shadow">
+						<p class="n-number">4</p>
+					</div><!-- end number-bubble -->
+				</div><!-- end notification -->
+			</div><!-- end header -->	
+		</div><!-- end header -->
+		<div class="wrapper">
+			<div class="club-page">
+				<div class="match-header">
+					<div class="team-1-info">
+						<p class="team-1-rank">#15</p>
+						<p class="team-1-name" onclick="goHome();">SKT T1 Telecom</p>
+						<img src="public/images/members.png" class="team-1-icon"><p class="team-1-members">3,670</p>
+					</div><!-- end team-1-info -->
+					<div class="team-1-img">
+						<img src="public/images/team-1.png" class="team-1-logo" onclick="goHome();">
+					</div><!-- end team-1-img -->
+					<div class="match-center">
+						<p class="score-1">3</p>
+						<img src="public/images/line.png" class="score-line">
+						<p class="score-2">1</p>
+						<img src="public/images/vs.png" class="match-vs">
+						<p class="time-left">3h 14m left</p>
+					</div><!-- end match-center -->
+					<div class="team-2-img">
+						<img src="public/images/team-2.png" class="team-2-logo">
+					</div><!-- end team-2-info -->
+					<div class="team-2-info">
+						<p class="team-2-rank">#15</p>
+						<p class="team-2-name">H2K Europe</p>
+						<img src="public/images/members-blue.png" class="team-2-icon"><p class="team-2-members">3,670</p>
+					</div><!-- end team-2-info -->
+				</div><!-- end match-header -->
+				<div class="score-bar">
+					<div class="point-time">
+						<img src="public/images/time.png">
+						<p><span>17 minutes</span> left to get the next point</p>
+					</div><!-- end point-time -->
+					<div class="green-points">
+						<img src="public/images/green-score.png" class="gp-bg">
+						<img src="public/images/green-trophy.png" class="green-trophy"><p class="green-score">9,323</p>						
+					</div><!-- end green-points -->
+					<div class="space">
+						<p>:</p>
+					</div><!-- end space -->
+					<div class="blue-points">
+						<img src="public/images/blue-score.png" class="bp-bg">
+						<img src="public/images/blue-trophy.png" class="blue-trophy"><p class="blue-score">8,951</p>
+					</div><!-- end blue-points -->
+					<div class="play-t">
+						<img src="public/images/cta.png">
+					</div><!-- end play-t -->
+				</div><!-- end score-bar -->
+				<div class="messages-wrapper">
+					<div class="message-1">
+						<img src="public/images/mg-1.png" class="mg-1">
+						<div class="msg-top">
+							<img src="public/images/avatar-4.png" class="msg-avatar">
+							<p class="msg-name">SKT T1 Wolf <span>(Leader)</span></p><!-- end msg-name -->
+							<p class="msg-desc">“Hey guys stream is live right now!! Join us: <span>https://www.twitch.tv/jovanbelic”</span></p>
+						</div><!-- end msg-top -->
+						<div class="msg-bottom">
+							<div class="buttons">
+								<div class="button-wrapper">
+									<img src="public/images/buttons/send.png">
+									<p>Reply</p>
+								</div><!-- end button wrapper -->
+								<div class="button-wrapper">
+									<img src="public/images/buttons/like.png">
+									<p>2,415</p>
+								</div><!-- end button wrapper -->
+								<div class="button-wrapper">
+									<img src="public/images/buttons/streamer.png">
+									<p>Streamer’s Post</p>
+								</div><!-- end button wrapper -->
+							</div><!-- end buttons -->
+							<div class="time-ago">
+								<p>25 minutes ago</p>
+							</div><!-- end time-ago -->	
+						</div><!-- end msg-bottom -->
+					</div><!-- end message-1 -->
+					<div class="message-2">
+						<div class="contribution">
+								<p>+520</p><img src="public/images/blue-trophy.png">
+						</div><!-- end contribution -->
+							<img src="public/images/mg-2.png" class="mg-2">
+							<div class="mg-blue-top">
+								<img src="public/images/avatar-3.png" class="msg-avatar">
+								<p class="msg-name">H2K Febiven<span> (Player)</span></p><!-- end msg-name -->
+								<p class="msg-desc">“Best game i’ve ever played! Take a look at the fight on 5th minute.. AMAZING!! 😵😱😵”</span></p>
+							</div><!-- end mg-blue-top -->
+							<div class="mg-blue-vid">
+								<iframe width="576" height="324" src="https://www.youtube.com/embed/MyyzuW8VuBk?rel=0&amp;controls=0&amp;&autoplay=1&loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							</div><!-- end mg-blue-vid -->
+							<div class="msg-bottom">
+								<div class="buttons">
+									<div class="button-wrapper">
+										<img src="public/images/buttons/send-b.png">
+										<p>Reply</p>
+									</div><!-- end button wrapper -->
+									<div class="button-wrapper">
+										<img src="public/images/buttons/like-b.png">
+										<p>3,912</p>
+									</div><!-- end button wrapper -->
+									<div class="button-wrapper">
+										<img src="public/images/buttons/streamer-b.png">
+										<p>Streamer's Like (0)</p>
+									</div><!-- end button wrapper -->
+								</div><!-- end buttons -->
+								<div class="time-ago">
+									<p>1 hour ago</p>
+								</div><!-- end-time ago -->
+							</div><!-- end msg-bottom -->
+					</div><!-- end message-2 -->
+					<div class="message-1 msg-3">
+						<div class="contribution green-c">
+								<p>+220</p><img src="public/images/green-trophy.png">
+						</div><!-- end contribution -->						
+						<img src="public/images/mg-3.png" class="mg-1">
+						<div class="msg-top">
+							<img src="public/images/avatar.png" class="msg-avatar">
+							<p class="msg-name">SKT T1 Faker<span> (Player)</span></p><!-- end msg-name -->
+							<p class="msg-desc">"Come one people! We can win this war.. 🤞🤞😏”</span></p>
+						</div><!-- end msg-top -->
+						<div class="msg-bottom">
+							<div class="buttons">
+								<div class="button-wrapper">
+									<img src="public/images/buttons/send.png">
+									<p>Reply</p>
+								</div><!-- end button wrapper -->
+								<div class="button-wrapper">
+									<img src="public/images/buttons/like.png">
+									<p>1,515</p>
+								</div><!-- end button wrapper -->
+								<div class="button-wrapper">
+									<img src="public/images/buttons/streamer.png">
+									<p>Streamer’s Like (0)</p>
+								</div><!-- end button wrapper -->
+							</div><!-- end buttons -->
+							<div class="time-ago">
+								<p>2 hours ago</p>
+							</div><!-- end time-ago -->	
+						</div><!-- end msg-bottom -->
+					</div><!-- end message-1 -->					
+				</div><!-- end messages-wrapper -->
+			</div><!-- end club-page -->
+			<div class="chat">
+				<div class="chat-header">
+					<div class="messages-number">
+						<p>5 NEW MESSAGES</p>
+					</div><!-- end messages-number -->	
+				</div><!-- end chat-header -->
+				<div class="message-box">
+					<div class="message-content">
+						<img src="public/images/avatar-4.png" class="d-shadow">
+						<p class="first-p"><span>Alex325:</span> You guys think we will win this?</p>
+					</div><!-- end message-content -->
+					<div class="message-time">
+						<p>2 mins ago</p>
+					</div><!-- end time -->
+				</div><!-- end message-box -->
+				<div class="message-box">
+					<div class="message-content">
+						<img src="public/images/avatar.png" class="d-shadow">
+						<p class="second-p"><span>Jovan1501:</span> LoL Alex, whate else are we <br>
+						doing??? Of course we are winning!</p>
+					</div><!-- end message-content -->
+					<div class="message-time">
+						<p>2 mins ago</p>
+					</div><!-- end time -->
+				</div><!-- end message-box -->	
+				<div class="message-box">
+					<div class="message-content">
+						<img src="public/images/avatar-2.png" class="d-shadow">
+						<p class="first-p"><span>BestRivenNa:</span> Hmm, we are in big deficit?</p>
+					</div><!-- end message-content -->
+					<div class="message-time">
+						<p>2 mins ago</p>
+					</div><!-- end time -->
+				</div><!-- end message-box -->	
+				<div class="message-box">
+					<div class="message-content">
+						<img src="public/images/avatar.png" class="d-shadow">
+						<p class="second-p"><span>Jovan1501:</span> Yes, don't worry, trust me, <br>
+						Just play, we have enought time!</p>
+					</div><!-- end message-content -->
+					<div class="message-time">
+						<p>2 mins ago</p>
+					</div><!-- end time -->
+				</div><!-- end message-box -->	
+				<div class="message-box">
+					<div class="message-content">
+						<img src="public/images/avatar-5.png" class="d-shadow">
+						<p class="second-p"><span>JaSamBiciklom:</span> But <i class="b-w">@Jovan1501</i> we can't,<br>
+						there is just not enought players</p>
+					</div><!-- end message-content -->
+					<div class="message-time">
+						<p>2 mins ago</p>
+					</div><!-- end time -->
+				</div><!-- end message-box -->	
+				<div class="message-input">
+					<div class="input-box">
+						<input type="text" name="message" placeholder="Write a message to your team...">
+						<img src="public/images/smiley.png">
+					</div><!-- end input-box -->
+					<div class="message-button d-shadow">
+						<img src="public/images/send.png">
+					</div><!-- end message-button -->							
+				</div><!-- end message-input -->													
+			</div><!-- end chat -->
+			<div class="ads">
+			<iframe width="400" height="300" src="https://www.youtube.com/embed/ahotFjtqPdA?rel=0&amp;controls=0&autoplay=1&loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div><!-- end ads --> 
+		</div><!-- end wrapper -->
+	</div><!-- end container -->
+	<script src="views/controller.js"></script>
+	<script src="views/match-controller.js"></script>
+</body>
+</html>
