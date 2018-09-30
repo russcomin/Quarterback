@@ -878,6 +878,7 @@ ul {
 }
 
 .message-1 {
+	transition: .3s;
 	width: 516px;
 	height: 104px;
 	background: #1c252f;
@@ -891,6 +892,32 @@ ul {
 	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);	
 	margin-left: 12px;
 	float: left;
+}
+
+.main-msg:hover {
+	transition: .3s;
+	margin-left: 22px;
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.78);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.78);
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.78);	
+
+}
+
+.message-2:hover {
+	transition: .2s;
+	margin-right: 23px;	
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.48);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.48);
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.48);	
+}
+
+.msg-3:hover {
+	transition: .3s;
+	margin-left: 22px;
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.78);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.78);
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.78);	
+
 }
 
 .mg-1 {
@@ -999,6 +1026,7 @@ ul {
 }
 
 .message-2 {
+	transition: .3s;
 	width: 610px;
 	height: 446px;
 	background: #151c24;
@@ -1110,6 +1138,7 @@ ul {
 }
 
 .msg-3 {
+	transition: .3s;
 	margin-top: 19px;
 	background: #151c24;
 	border: 1px solid #275b35;
