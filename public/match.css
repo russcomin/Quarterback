@@ -878,7 +878,7 @@ ul {
 }
 
 .message-1 {
-	transition: .3s;
+	transition: .1s;
 	width: 516px;
 	height: 104px;
 	background: #1c252f;
@@ -1026,7 +1026,7 @@ ul {
 }
 
 .message-2 {
-	transition: .3s;
+	transition: .1s;
 	width: 610px;
 	height: 446px;
 	background: #151c24;
@@ -1138,7 +1138,7 @@ ul {
 }
 
 .msg-3 {
-	transition: .3s;
+	transition: .1s;
 	margin-top: 19px;
 	background: #151c24;
 	border: 1px solid #275b35;
