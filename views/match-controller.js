@@ -6,8 +6,3 @@ let logo,
 
 	club_tile = document.getElementsByClassName('main-club')[0];
 	club_tile.addEventListener('click', goHome);
-
-	function goHome() {
-		document.location = "index.html";
-	}
-

@@ -44,3 +44,12 @@ let match = document.getElementsByClassName('match')[0];
 	match.addEventListener('click', function() {
 		document.location = "match.html";
 	})
+
+function profilePage() {
+	document.location = "profile.html"
+}
+
+function goHome() {
+	document.location = "index.html";
+}
+
