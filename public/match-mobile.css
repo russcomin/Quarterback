@@ -60,7 +60,7 @@ body {
 }
 
 .search {
-	width: 180px;
+	width: 170px;
 	height: 100%;
 	float: left;
 }
@@ -94,7 +94,7 @@ body {
 .search-field:focus { outline: none; }
 
 .nav-box {
-	width: 57px;
+	width: 45px;
 	height: 100%;
 	float: right;
 	text-align: center;
@@ -141,7 +141,7 @@ body {
 }
 
 .user-avatar {
-	margin-top: 4px;
+	margin-top: 7px;
 	cursor: pointer;
 	float: left;
 	margin-left: 10px;
@@ -153,8 +153,8 @@ body {
 	font-size: 12px;
 	color: #40e449;
 	letter-spacing: .6px;
-	margin-left: 8px;
-	margin-top: 14px;
+	margin-left: 10px;
+	margin-top: 16px;
 }
 
 .club > span {
@@ -168,8 +168,8 @@ body {
 	font-family: Roboto-Regular;
 	font-size: 10px;
 	margin-top: 3px;
-	margin-left: 8px;
-	letter-spacing: .3px;
+	margin-left: 10px;
+	letter-spacing: .5px;
 }
 
 .arrow {
