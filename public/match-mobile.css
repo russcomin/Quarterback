@@ -1,0 +1,197 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Bold;
+    src: url(fonts/Rubik-Bold.ttf);
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+body {
+	background: #141b23;
+}
+
+.header {
+	width: 100%;
+	height: 55px;
+	width: 100%;
+	height: 55px;
+	background: #0d1117;
+	border-bottom: 1px solid #2c3948;
+	position: fixed;
+	z-index: 1000;
+}
+
+.logo {
+	width: 66px;
+	height: 100%;
+	float: left;
+	background: #151c24;
+	text-align: center;
+}
+
+.logo > img {
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.search {
+	width: 180px;
+	height: 100%;
+	float: left;
+}
+
+.search-img {
+	margin-left: 15px;
+	float: left;
+	margin-top: 16px;
+	cursor: pointer;
+}
+
+.search-field {
+	float: left;
+	background: none;
+	border: none;
+	color: white;
+	margin-left: 12px;
+	margin-top: 22px;
+	font-family: Roboto-Regular;
+	font-size: 11px;
+
+}
+
+.search-field::-webkit-input-placeholder {
+	font-family: Roboto-Bold;
+	font-size: 10px;
+	color: #787878;
+	letter-spacing: .2px;
+}
+
+.search-field:focus { outline: none; }
+
+.nav-box {
+	width: 57px;
+	height: 100%;
+	float: right;
+	text-align: center;
+}
+
+.nav-box > img {
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.box-2 {
+	width: 30px;
+}
+
+.box-2 > img {
+	margin-top: 16px;
+	cursor: pointer;
+}
+
+.user-header {
+	float: left;
+	width: 100%;
+	height: 62px;
+	background: #1e2632;
+	margin-top: 55px;
+	border-bottom: 1px solid #24313e;
+	border-top: 1px solid #24313e;
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.32);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.32);
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.32);
+}
+
+.player-info {
+	width: 230px;
+	height: 100%;
+	float: left;
+}
+
+
+.user {
+	float: left;
+	width: 215px;
+	height: 100%;
+}
+
+.user-avatar {
+	margin-top: 4px;
+	cursor: pointer;
+	float: left;
+	margin-left: 10px;
+}
+
+.user-name {
+	float: left;
+	font-family: Roboto-Bold;
+	font-size: 12px;
+	color: #40e449;
+	letter-spacing: .6px;
+	margin-left: 8px;
+	margin-top: 14px;
+}
+
+.club > span {
+	font-family: Roboto-Bold;
+	color: #636363;
+}
+
+.club {
+	float: left;
+	color: #fbfbfb;
+	font-family: Roboto-Regular;
+	font-size: 10px;
+	margin-top: 3px;
+	margin-left: 8px;
+	letter-spacing: .3px;
+}
+
+.arrow {
+	transition: .3s;
+	float: right;
+	width: 20px;
+	height: 18px;
+	border-radius: 3px;
+	background: #1e2632;
+	border: 1px solid #35404f;
+	cursor: pointer;
+	margin-top: -9px;
+	margin-right: 10px; 
+}
+
+.arrow:hover {
+	background: #293545;
+	transition: .3s;
+}
+
+.arrow-img {
+	float: left;
+	margin-top: 7.4px;
+	margin-left: 5px;
+}
