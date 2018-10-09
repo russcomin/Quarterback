@@ -245,3 +245,23 @@ body {
 	width: 24px;
 	height: 24px;	
 }
+
+.match-header {
+	width: 100%;
+	height: 193px;
+	float: left;
+	background-image: url(images/mobile/header-bg.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: -1px;
+}
+
+.match-info {
+	width: 100%;
+	height: 40px;
+	border-top: 1px solid #323a43;
+	border-bottom: 1px solid #323a43;
+	background: #181f26;
+	float: left;
+}
