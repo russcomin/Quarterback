@@ -61,7 +61,9 @@ body {
 }
 
 .logo > img {
-	margin-top: 15px;
+	margin-top: 14px;
+	width: 28px;
+	height: 26px;
 	cursor: pointer;
 }
 
@@ -207,5 +209,9 @@ body {
 	left: 50%;
 	top: 126px;
 	-webkit-transform: translate(-50%,0);
+}
 
+.chat-img {
+	width: 24px;
+	height: 24px;	
 }
