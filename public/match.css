@@ -932,7 +932,6 @@ body {
 	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.78);
 	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.78);
 	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.78);	
-
 }
 
 .mg-1 {
@@ -1176,4 +1175,98 @@ body {
 	z-index: 150;
 	margin-top: -50px;
 	margin-left: -2px;
+}
+
+/* MESSAGES */
+
+.msg-3-blue {
+	float: right;
+	background: #151c24;
+	border: 1px solid #1a3d46;
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);	
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	margin-right: 13px;
+}
+
+.mg-2 {
+	transition: .2s;
+	float: right;
+	margin-right: -14px;
+	margin-top: 81px;
+}
+
+.msg-3-blue > .mg-2 {
+	margin-top: 43px;
+}
+
+.msg-3-blue:hover {
+	transition: .2s;
+	margin-right: 20px;	
+}
+
+.msg-3-blue > .msg-top > .msg-avatar {
+	margin-top: 10px;
+	margin-left: 17px;
+}
+
+.msg-3-blue > .msg-top > .msg-name {
+	color: #24c1cc;
+	margin-top: 18px;
+}
+
+.msg-3-blue > .msg-bottom > .buttons > .button-wrapper > p {
+	color: #3b859c;
+}
+
+.msg-3-blue > .contribution {
+	margin-left: 325px;
+}
+
+.msg-4-blue {
+	width: 450px;
+}
+
+.msg-4-blue > .msg-bottom > .time-ago {
+	width: 148px;
+}
+
+.msg-4-blue > .contribution {
+	margin-left: 370px;
+}
+
+.green-vid {
+	transition: .1s;
+	margin-top: 19px;
+	background: #151c24;
+	border: 1px solid #275b35;
+	float: left;
+}
+
+.green-vid > .green-c {
+	margin-left: 535px;
+}
+
+.green-vid > .msg-top > .msg-desc {
+	margin-top: 5px;
+}
+
+.green-vid > .msg-top > .msg-avatar {
+	margin-top: 9px;
+}
+
+.green-vid > .msg-top > .msg-name {
+	margin-top: 17px;
+}
+
+.green-vid > .msg-bottom > .buttons > .button-wrapper > p {
+	color: #328343;
+}
+
+.green-vid:hover {
+	transition: .3s;
+	margin-left: 22px;
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.78);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.78);
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.78);	
 }
