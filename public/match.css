@@ -264,7 +264,7 @@ body {
 .club-page {
 	float: left;
 	width: 663px;
-	height: 2580px;
+	height: 3580px;
 	background: #182029;
 	border: 1px solid #293440;
 	margin-top: 70px;
@@ -1269,4 +1269,42 @@ body {
 	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.78);
 	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.78);
 	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.78);	
+}
+
+.main-msg-feed {
+	margin-top: 15px;
+}
+
+.blue-main {
+	transition: .1s;
+	width: 516px;
+	height: 104px;
+	background: #1c252f;
+	background: url(images/msg-bg-b.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid #24c1cc;
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);	
+	float: right;
+	margin-right: 16px;
+}
+
+.blue-main:hover {
+	transition: .3s;
+	margin-right: 26px;
+}
+
+.blue-main > .mg-2 {
+	margin-top: 40px;
+}
+
+.blue-main > .msg-top > .msg-name {
+	color: #24c1cc;
+}
+
+.blue-main > .msg-bottom > .buttons > .button-wrapper > p {
+	color: #3b859c;
 }
