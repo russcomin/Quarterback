@@ -264,7 +264,7 @@ body {
 .club-page {
 	float: left;
 	width: 663px;
-	height: 8750px;
+	height: 9260px;
 	background: #182029;
 	border: 1px solid #293440;
 	margin-top: 70px;
@@ -1357,4 +1357,351 @@ body {
 	vertical-align: middle;
 	display: inline-block;
 	margin-left: 3px;
+}
+
+.point-item {
+	width: 633px;
+	height: 283px;
+	background: #1b242e;
+	border: 1px solid #2c3744;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);	
+	float: left;
+	margin-top: 17px;
+	margin-left: 2px;
+}
+
+.point-header {
+	width: 100%;
+	height: 73px;
+	background: #1f2934;
+	-webkit-box-shadow: 0px 1px 13px 0px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 1px 13px 0px rgba(0,0,0,0.18);
+	box-shadow: 0px 1px 13px 0px rgba(0,0,0,0.18);	
+	float: left;
+}
+
+.point-content {
+	float: left;
+	height: 173px;
+	width: 100%;	
+	background-image: url(images/feed-bg.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.point-bottom {
+	width: 100%;
+	height: 37px;
+	float: left;
+	background: #1f2934;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.point-bottom > .buttons {
+	height: 30px;
+	margin-top: 4px;
+}
+
+.point-bottom > .time-ago {
+	float: right;
+	margin-top: 4px;
+	margin-right: 5px;
+}
+
+.header-info {
+	width: 445px;
+	height: 100%;
+	float: left;
+}
+
+.header-point {
+	width: 188px;
+	height: 100%;
+	float: left;
+}
+
+.header-info > img {
+	margin-top: 13px;
+	margin-left: 13px;
+	float: left;
+}
+
+.header-info > .point-title {
+	font-family: Rubik-Bold;
+	font-size: 16px;
+	color: #ffffff;
+	letter-spacing: .4px;
+	margin-top: 20px;
+	margin-left: 13px;
+	float: left;
+}
+
+.header-info > .point-text {
+	font-family: Roboto-Bold;
+	font-size: 10px;
+	color: #696969;
+	float: left;
+	margin-left: 14px;
+	margin-top: 3px;
+	letter-spacing: .2px;
+}
+
+.header-info > .point-text > .g-text {
+	font-family: Rubik-Bold;
+	color: #38bb44;
+}
+
+.header-info > .point-text > .b-text {
+	font-family: Rubik-Bold;
+	color: #24c1cc;
+}
+
+.point-wrapper {
+	width: 137px;
+	height: 28px;
+	background: #1d2631;
+	border: 1px solid #35b83c;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	margin-top: 20px;	
+	margin-left: 15px;
+}
+
+.point-wrapper > img {
+	position: absolute;
+	margin-top: 8px;
+}
+
+.point-wrapper > p {
+	text-align: center;
+	font-family: Roboto-Bold;
+	font-size: 10px;
+	color: #bfbfbf;
+	line-height: 27px;
+}
+
+.point-wrapper > p > span {
+	font-family: Rubik-Bold;
+	font-size: 12px;
+	color: #3cc843;
+}
+
+.content-top {
+	float: left;
+	width: 100%;
+	height: 98px;
+}
+
+.content-bottom {
+	float: left;
+	width: 100%;
+	height: 75px;
+}
+
+.green-ikons {
+	width: 212px;
+	height: 100%;
+	float: left;
+	padding-left: 60px;
+}
+
+.ikons-pic {
+	width: 100px;
+	height: 100%;
+	float: left;
+}
+
+.blue-ikons {
+	width: 220px;
+	height: 100%;
+	float: left;
+	padding-right: 40px;
+}
+
+.green-av {
+	margin-left: 3px;
+}
+
+.green-ikons-bg {
+	position: absolute;
+	margin-top: 47px;
+}
+
+.ikons-pic-wrapper {
+	width: 75px;
+	height: 56px;
+	border-radius: 5px;
+	background: #273647;
+	margin-left: 13px;
+	margin-top: -4px;
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	border: 1px solid #43566b;
+	text-align: center;
+}
+
+.ikons-pic-wrapper > img {
+	margin-top: 12px;
+}
+
+.ikons-text {
+	color: #fefefe;
+	font-family: Roboto-Bold;
+	font-size: 10px;
+	letter-spacing: .2px;
+	margin-top: -1px;
+}
+
+.green-team {
+	width: 274px;
+	height: 100%;
+	float: left;
+}
+
+.score-middle {
+	width: 105px;
+	height: 100%;
+	float: left;
+}
+
+.blue-team {
+	width: 250px;
+	height: 100%;
+	float: left;
+}
+
+.score-card  {
+	width: 38px;
+	height: 43px;
+	border-radius: 3px;
+	background: #222d39;
+	border-bottom: 3px solid #3fe047;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 26px;
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.38);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.38);
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.38);	
+}
+
+.score-card > p {
+	font-family: Roboto-Bold;
+	font-size: 30px;
+	color: #3fe047;
+	line-height: 43px;
+}
+
+.sep {
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: Rubik-Bold;
+	font-size: 18px;
+	padding: 0px 5px 0px 5px;
+	color: #595e60;
+	margin-top: 30px;
+}
+
+.card-blue > p {
+	color: #2fc8d3;
+}
+
+.card-blue {
+	border-bottom: 3px solid #2fc8d3;
+}
+
+.team-wrapper {
+	width: 250px;
+	height: 98px;
+	float: left;
+}
+
+.team-bg {
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 19px;
+}
+
+.team-front {
+	margin-left: 17px;
+	margin-top: 6px;
+	position: absolute;
+}
+
+.team-content {
+	width: 125px;
+	height: 60px;
+	position: absolute;
+	margin-left: 120px;
+	margin-top: 20px;
+}
+
+.team-content > p:nth-child(1) {
+	color: #3cc843;
+	font-family: Roboto-Bold;
+	font-size: 14px;
+	letter-spacing: .4px;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.34);
+	margin-left: 6px;
+	margin-top: 6px;
+}
+
+.team-content > p:nth-child(2) {
+	color: #909090;
+	font-family: Roboto-Bold;
+	font-size: 9px;
+	letter-spacing: .2px;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.14);
+	margin-left: 16px;
+	margin-top: 12px;
+}
+
+.team-content > p:nth-child(2) > span {
+	font-size: 13px;
+	color: #3cc843;
+}
+
+.blue-wrapper .team-bg { 
+	margin-left: 10px;
+}
+
+.blue-wrapper .team-front { 
+	margin-left: 140px;
+}
+
+.blue-wrapper > .team-content {
+	margin-left: 35px;
+}
+
+.blue-wrapper > .team-content > p:nth-child(1) {
+	margin-left: 15px;
+	color: #2fc8d3;
+}
+
+.blue-wrapper > .team-content > p:nth-child(2) {
+	margin-left: 20px;
+}
+
+.blue-wrapper > .team-content > p:nth-child(2) > span {
+	color: #2fc8d3;
+}
+
+.blue-buttons > .button-wrapper > .blue-q-fix {
+	color: #3b859c;
+}
+
+.blue-point {
+	border: 1px solid #148da7;
+}
+
+.blue-point > p > span {
+	color: #2ec6d1;
 }
