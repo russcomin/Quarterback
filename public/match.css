@@ -1713,3 +1713,263 @@ body {
 .message-2 > .msg-bottom > .buttons {
 	width: auto;
 }
+
+/* 
+
+ RANK MENU
+
+*/
+
+.rank-menu {
+	width: 232px;
+	height: 222px;
+	position: fixed;
+	margin-left: 805px;
+	margin-top: 60px;
+	background: #202a36;
+	border: 1px solid #37475a;
+	z-index: 2000;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.38);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.38);
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.38);	
+	display: none;
+	background-image: url(images/rank-bg.png);
+}
+
+.rank-mg {
+	position: absolute;
+	margin-left: 184px;
+	margin-top: -11px;
+}
+
+.rank-menu-header {
+	width: 100%;
+	height: 32px;
+	float: left;
+	background: #3d4c5f;
+	text-align: center;
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.38);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.38);
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.38);		
+}
+
+.rank-menu-header > p {
+	font-family: Roboto-Bold;
+	font-size: 10px;
+	color: #7e92ad;
+	letter-spacing: .2px;
+	line-height: 32px;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.34);
+}
+
+.rank-menu-content {
+	width: 100%;
+	height: 100px;
+	float: left;
+}
+
+.rank-menu-top {
+	width: 100%;
+	height: 39px;
+	float: left;
+	text-align: center;
+}
+
+.rank-menu-top > p {
+	font-family: Roboto-Regular;
+	font-size: 10px;
+	color: #f0f0f0;
+	letter-spacing: .2px;
+	text-align: center;
+	margin-top: 12px;
+}
+
+.rank-menu-bottom {
+	width: 100%;
+	height: 78px;
+	float: left;
+}
+
+.skely {
+	position: absolute;
+	margin-top: 63px;
+}
+
+.rank-left {
+	width: 90px;
+	height: 100%;
+	float: left;
+}
+
+.rank-middle {
+	width: 54px;
+	height: 100%;
+	float: left;
+}
+
+.rank-right {
+	width: 88px;
+	height: 100%;
+	float: left;
+}
+
+.rank-middle > img {
+	float: left;
+	margin-top: 7px;
+	margin-left: 2px;
+}
+
+.rank-left > p {
+	font-family: Roboto-Bold;
+	font-size: 8px;
+	color: #536272;
+	letter-spacing: .2px;
+	text-align: center;
+	margin-top: 19px;
+	line-height: 180%;
+}
+
+.rank-left > p > span {
+	font-size: 12px;
+	color: #3ac742;
+	letter-spacing: .4px;
+}
+
+.rank-right > p {
+	font-family: Roboto-Bold;
+	font-size: 8px;
+	color: #536272;
+	letter-spacing: .2px;
+	text-align: center;
+	margin-top: 19px;
+	line-height: 180%;
+}
+
+.rank-right > p > span {
+	font-size: 12px;
+	color: #3ac742;
+	letter-spacing: .4px;
+}
+
+.rank-right > p > span > img {
+	padding-right: 3px;
+}
+
+.rank-progress {
+	width: 100%;
+	height: 74px;
+	float: left;
+}
+
+.rank-progress-1 {
+	width: 100%;
+	float: left;
+	height: 24px;
+}
+
+.rank-progress-2 {
+	width: 100%;
+	float: left;
+	height: 14px;
+}
+
+.rank-progress-3 {
+	width: 100%;
+	float: left;
+	height: 35px;
+}
+
+.pin {
+	margin-top: 10px;
+	margin-left: 106px;
+	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+}
+
+.missing {
+	position: absolute;
+	font-family: Roboto-Bold;
+	font-size: 9px;
+	color: #576676;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 8px;
+	margin-left: 118px;
+	letter-spacing: .2px;
+}
+
+.missing > span {
+	font-size: 9px;
+	color: #4ae252;
+}
+
+.missing > span > img {
+	padding-right: 2px;
+}
+
+.progress-bar {
+	width: 214px;
+	height: 7px;
+	background: #2e3d4d;
+	border: 1px solid #4b6077;
+	border-radius: 7px;
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);		
+	margin-left: 7px;
+}
+
+.filled {
+	width: 102px;
+	height: 100%;
+	background: #4ae252;
+	border-bottom-left-radius: 7px;
+	border-top-left-radius: 7px;
+}
+
+.text-label {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 1px;
+}
+
+.current-tier {
+	float: left;
+	font-family: Roboto-Bold;
+	font-size: 9px;
+	color: #576676;
+	margin-left: 10px;
+}
+
+.current-tier > span {
+	color: #4ae252;
+	letter-spacing: .3px;
+}
+
+.current-tier:nth-child(2) {
+	float: right;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+.t-bonus {
+	font-family: Roboto-Regular;
+	font-size: 9px;
+	color: #f0f0f0;
+	letter-spacing: .2px;
+	margin-left: 10px;
+}
+
+.text-label:nth-child(2) {
+	margin-top: 3px;
+}
+
+.t-bonus:nth-child(2) {
+	float: right;	
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-top: -10px;
+}
