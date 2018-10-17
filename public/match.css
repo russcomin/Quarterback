@@ -264,7 +264,7 @@ body {
 .club-page {
 	float: left;
 	width: 663px;
-	height: 9260px;
+	height: 5040px;
 	background: #182029;
 	border: 1px solid #293440;
 	margin-top: 70px;
@@ -1704,4 +1704,12 @@ body {
 
 .blue-point > p > span {
 	color: #2ec6d1;
+}
+
+.message-2 > .msg-bottom > .buttons {
+	width: auto;
+}
+
+.message-2 > .msg-bottom > .buttons {
+	width: auto;
 }
