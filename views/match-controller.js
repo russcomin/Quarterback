@@ -7,6 +7,8 @@ let logo,
 	club_tile = document.getElementsByClassName('main-club')[0];
 	club_tile.addEventListener('click', goHome);
 
+	// SHOW RANK / HOVER
+
 	let rank_menu = document.getElementsByClassName('rank-menu')[0];
 
 	function showRank() {
@@ -16,3 +18,22 @@ let logo,
 	function closeRank() {
 		rank_menu.style.display = "none";
 	}
+
+	// BUTTON HOVER
+
+	let play = document.getElementById('play-cta');
+
+	function ctaHover() {
+		play.style.transition = ".2s";
+		play.src = "./public/images/cta-hover.png";
+	}
+	function ctaDefault () {
+		play.src = "./public/images/cta.png";
+	}	
+
+	// SHOW TOOLTIP / HOVER
+
+	let tooltip = document.getElementsByClassName('tooltip-menu')[0];
+
+	function tooltipMenu() { tooltip.style.display = "block"; }
+	function tooltipClose() { tooltip.style.display = "none"; }

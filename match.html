@@ -168,8 +168,37 @@
 						<img src="public/images/blue-trophy.png" class="blue-trophy"><p class="blue-score">8,951</p>
 					</div><!-- end blue-points -->
 					<div class="play-t">
-						<img src="public/images/cta.png">
+						<img src="public/images/i.png" class="tooltip" onmouseover="tooltipMenu()" onmouseleave="tooltipClose();">
+						<img src="public/images/cta.png" id="play-cta" class="cta-img" onmouseover="ctaHover();" onmouseleave="ctaDefault();">
 					</div><!-- end play-t -->
+				<div class="rank-menu tooltip-menu">
+					<img src="public/images/mg-7.png" class="rank-mg">
+					<div class="rank-menu-header">
+						<p>How to play</p>
+					</div><!-- end rank-menu-header -->
+					<div class="step">
+						<div class="step-circle">
+							<p>1</p>	
+						</div><!-- end ste-circle -->
+						<p class="step-text">Play to get trophies for your team!</p>
+					</div><!-- end step -->
+					<div class="step  big-step">
+						<div class="step-circle">
+							<p>2</p>	
+						</div><!-- end ste-circle -->
+						<p class="step-text">Every 3 hours a point will be given to <br>
+						the team which got more trophies <br>
+						during that time!</p>
+					</div><!-- end step -->
+					<div class="step big-step">
+						<div class="step-circle">
+							<p>3</p>	
+						</div><!-- end ste-circle -->
+						<p class="step-text">Get 30 trophies during one game <br>
+						to post on the club feed! Get 60 <br>
+						to post a video!</p>
+					</div><!-- end step -->										
+				</div><!-- end rank-menu -->					
 				</div><!-- end score-bar -->
 				<div class="messages-wrapper">
 					<div class="message-1 main-msg">
@@ -191,7 +220,7 @@
 								</div><!-- end button wrapper -->
 								<div class="button-wrapper">
 									<img src="public/images/buttons/streamer.png">
-									<p>Leader’s Post</p>
+									<p>Leaders Post</p>
 								</div><!-- end button wrapper -->
 							</div><!-- end buttons -->
 							<div class="time-ago">
@@ -382,7 +411,7 @@
 								</div><!-- end button wrapper -->
 								<div class="button-wrapper">
 									<img src="public/images/buttons/streamer.png">
-									<p>Leader’s Post</p>
+									<p>Leaders Post</p>
 								</div><!-- end button wrapper -->
 							</div><!-- end buttons -->
 							<div class="time-ago">
@@ -506,7 +535,7 @@
 								</div><!-- end button wrapper -->
 								<div class="button-wrapper">
 									<img src="public/images/buttons/streamer.png">
-									<p>Leader’s Post</p>
+									<p>Leaders Post</p>
 								</div><!-- end button wrapper -->
 							</div><!-- end buttons -->
 							<div class="time-ago">
@@ -623,7 +652,7 @@
 								</div><!-- end button wrapper -->
 								<div class="button-wrapper">
 									<img src="public/images/buttons/streamer-b.png">
-									<p>Leader’s Post</p>
+									<p>Leaders Post</p>
 								</div><!-- end button wrapper -->
 							</div><!-- end buttons -->
 							<div class="time-ago">
@@ -740,7 +769,7 @@
 								</div><!-- end button wrapper -->
 								<div class="button-wrapper">
 									<img src="public/images/buttons/streamer-b.png">
-									<p class="blue-q-fix">Leader’s Post</p>
+									<p class="blue-q-fix">Leaders Post</p>
 								</div><!-- end button wrapper -->
 							</div><!-- end buttons -->
 							<div class="time-ago">
@@ -864,7 +893,7 @@
 								</div><!-- end button wrapper -->
 								<div class="button-wrapper">
 									<img src="public/images/buttons/streamer.png">
-									<p>Leader’s Post</p>
+									<p>Leaders Post</p>
 								</div><!-- end button wrapper -->
 							</div><!-- end buttons -->
 							<div class="time-ago">
@@ -988,7 +1017,7 @@
 								</div><!-- end button wrapper -->
 								<div class="button-wrapper">
 									<img src="public/images/buttons/streamer-b.png">
-									<p>Leader’s Post</p>
+									<p>Leaders Post</p>
 								</div><!-- end button wrapper -->
 							</div><!-- end buttons -->
 							<div class="time-ago">
@@ -1055,7 +1084,7 @@
 								<p>Just Now</p>
 							</div><!-- end time-ago -->	
 						</div><!-- end msg-bottom -->
-					</div><!-- end message-1 -->														
+					</div><!-- end message-1 -->
 				</div><!-- end messages-wrapper -->
 			</div><!-- end club-page -->
 			<div class="chat">
@@ -1122,6 +1151,10 @@
 					</div><!-- end message-button -->							
 				</div><!-- end message-input -->													
 			</div><!-- end chat -->
+			<div class="ads-support">
+				<p><span>* </span>This ads support your Leader</p>	
+				<p class="leader"><span>Ads by:</span> <u>Nintendo</u></p>	
+			</div><!-- end ads-support -->
 			<div class="ads">
 			<iframe width="400" height="300" src="https://www.youtube.com/embed/ahotFjtqPdA?rel=0&amp;controls=0&autoplay=1&loop=1&mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div><!-- end ads --> 

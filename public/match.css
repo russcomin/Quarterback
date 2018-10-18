@@ -809,7 +809,7 @@ body {
 	font-size: 10px;
 	color: #949494;
 	font-family: Roboto-Regular;
-	letter-spacing: .2px;
+	letter-spacing: .1px;
 	margin-top: 10px;
 	margin-left: 6px;
 }
@@ -879,7 +879,7 @@ body {
 	line-height: 42px;
 }
 
-.play-t > img {
+.play-t > .cta-img {
 	float: right;
 	cursor: pointer;
 	margin-top: 3px;
@@ -1032,7 +1032,7 @@ body {
 	font-family: Roboto-Bold;
 	font-size: 11px;
 	color: #328343;
-	letter-spacing: .4px;
+	letter-spacing: .2px;
 	margin-left: 2px;
 }
 
@@ -1320,9 +1320,9 @@ body {
 .new-posts {
 	width: 100%;
 	height: 37px;
-	float: left;
 	margin-top: 7px;
 	text-align: center;
+	float: left;
 }
 
 .new-posts > img:nth-child(1) {
@@ -1972,4 +1972,102 @@ body {
 	margin-left: 0px;
 	margin-right: 10px;
 	margin-top: -10px;
+}
+
+.tooltip {
+	position: absolute;
+	margin-left: 32px;
+	margin-top: 11px;
+	cursor: pointer;
+}
+
+.tooltip-menu {
+	display: none;
+	height: 200px;
+	margin-left: 359px;
+	margin-top: 42px;
+	position: absolute;
+}
+
+.tooltip-menu > .rank-mg {
+	margin-left: 108px;
+}
+
+.step {
+	width: 100%;
+	height: 53px;
+	float: left;
+}
+
+.step-circle {
+	width: 31px;
+	height: 31px;
+	background: #1f2935;
+	border-radius: 50%;
+	border: 2px solid #40d947;
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.18);		
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;		
+}
+
+.step-circle {
+	text-align: center;
+	line-height: 32px;
+	color: #40d947;
+	font-family: Roboto-Bold;
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.step-text {
+	font-family: Roboto-Regular;
+	font-size: 10px;
+	color: #e1e1e1;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 20px;
+	margin-left: 10px;
+	letter-spacing: .1px;
+}
+
+.big-step > .step-text {
+	margin-top: 9px;
+}
+
+.ads-support {
+	width: 400px;
+	height: 30px;
+	background: #293440;
+	position: fixed;
+	margin-top: 657px;
+	margin-left: 680px;
+	z-index: 200;
+}
+
+
+.ads-support > p {
+	line-height: 29px;
+	font-family: Roboto-Regular;
+	font-size: 10px;
+	color: #7e92ad;
+	margin-left: 10px;
+}
+
+.ads-support > p:first-child {
+	float: left;
+}
+
+.ads-support > p > span {
+	font-family: Roboto-Bold;
+	color: #879cb8;
+}
+
+.leader {
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
 }
