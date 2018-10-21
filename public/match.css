@@ -2071,3 +2071,41 @@ body {
 	margin-right: 10px;
 	cursor: pointer;
 }
+
+.leaderboard-button {
+	transition: .2s;
+	width: 55px;
+	height: 55px;
+	position: fixed;
+	border-radius: 50%;
+	background: #151c24;
+	border: 2px solid #40e348;
+	margin-left: 585px;
+	margin-top: 530px;
+	z-index: 500;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.38);
+	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.38);
+	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.38);
+	text-align: center;
+}
+
+.leaderboard-button > img {
+	transition: .2s;
+	width: 26px;
+	height: 26px;
+	margin-top: 12px;
+}
+
+.leaderboard-button:hover {
+	transition: .2s;
+	margin-top: 520px;
+	border-radius: 35%;
+}
+
+.leaderboard-button:hover > img {
+	transition: .2s;
+	width: 24px;
+	height: 24px;
+	margin-top: 14px;
+}
