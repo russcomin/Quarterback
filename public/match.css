@@ -2074,14 +2074,14 @@ body {
 
 .leaderboard-button {
 	transition: .2s;
-	width: 55px;
-	height: 55px;
-	position: fixed;
+	width: 40px;
+	height: 40px;
+	position: absolute;
 	border-radius: 50%;
 	background: #151c24;
-	border: 2px solid #40e348;
-	margin-left: 585px;
-	margin-top: 510px;
+	border: 1px solid #40e348;
+	margin-left: 610px;
+	margin-top: 10px;
 	z-index: 500;
 	cursor: pointer;
 	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.38);
@@ -2092,14 +2092,14 @@ body {
 
 .leaderboard-button > img {
 	transition: .2s;
-	width: 26px;
-	height: 26px;
-	margin-top: 12px;
+	width: 24px;
+	height: 24px;
+	margin-top: 7px;
 }
 
 .leaderboard-button:hover {
 	transition: .2s;
-	margin-top: 500px;
+	margin-top: 15px;
 	border-radius: 35%;
 }
 
@@ -2107,5 +2107,5 @@ body {
 	transition: .2s;
 	width: 24px;
 	height: 24px;
-	margin-top: 14px;
+	margin-top: 7px;
 }
