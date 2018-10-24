@@ -2078,15 +2078,12 @@ body {
 	height: 40px;
 	position: absolute;
 	border-radius: 50%;
-	background: #151c24;
-	border: 1px solid #40e348;
-	margin-left: 610px;
+	background: none;
+	border: none;
+	margin-left: 615px;
 	margin-top: 10px;
 	z-index: 500;
 	cursor: pointer;
-	-webkit-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.38);
-	-moz-box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.38);
-	box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.38);
 	text-align: center;
 }
 
@@ -2105,7 +2102,5 @@ body {
 
 .leaderboard-button:hover > img {
 	transition: .2s;
-	width: 24px;
-	height: 24px;
-	margin-top: 7px;
+	margin-top: 5px;
 }
