@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quarterback</title>
+	<link rel="stylesheet" type="text/css" href="public/club-leaderboard.css">
+	 <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+  integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+  crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="header-wrapper d-shadow">
+			<div class="header">
+				<!-- CLUBS MODAL -->
+				<div class="clubs-menu d-shadow">
+					<div class="menu-wrapper">
+						<div class="menu-header">
+							<p class="my-clubs">MY CLUBS</p>
+							<p class="more">+ MORE CLUBS</p>
+						</div><!-- end menu-header -->
+						<div class="club-card main-club">
+							<p class="club-rank">#15</p>
+							<img src="public/images/team-1.png" class="team-img">
+							<p class="club-name">SKT T1 Telecom</p>
+							<p></p>
+							<img src="public/images/members.png" class="members-icon">
+							<p class="team-members">3,670</p>
+						</div><!-- end club-card -->
+						<div class="club-card normal-card">
+							<p class="club-rank">#43</p>
+							<img src="public/images/team-3.png" class="team-img">
+							<p class="club-name">H2K Europe</p>
+							<p></p>
+							<img src="public/images/members.png" class="members-icon">
+							<p class="team-members">2,512</p>
+						</div><!-- end club-card -->
+						<div class="club-card normal-card">
+							<p class="club-rank">#68</p>
+							<img src="public/images/team-4.png" class="team-img">
+							<p class="club-name">Heretics TM</p>
+							<p></p>
+							<img src="public/images/members.png" class="members-icon">
+							<p class="team-members">1,415</p>
+						</div><!-- end club-card -->				
+					</div><!-- end menu-wrapper -->
+				</div><!-- end clubs-menu -->
+				<div class="logo">
+					<img src="public/images/logo.png" class="logo-img">
+				</div><!-- end logo -->
+				<div class="search">
+					<img src="public/images/search.png" class="search-img">
+					<input type="text" name="search" class="search-field" placeholder="Search clubs, players...">
+				</div><!-- end search -->
+				<div class="user">
+					<img src="public/images/avatar.png" class="user-avatar d-shadow" onclick="profilePage();">
+					<p class="user-name">Jovan1501</p>
+					<p class="club"><span>Club:</span> SKT T1 Telecom</p>
+					<div class="arrow d-shadow">
+							<img src="public/images/arrow.png" class="arrow-img">
+					</div><!-- end arrow -->
+				</div><!-- end user -->
+				<div class="rank">
+					<hr class="rank-line">
+					<p class="rank-static">RANK</p>
+					<p class="rank-name" onmouseover="showRank();" onmouseleave="closeRank();">Major 3</p>
+					<hr class="rank-line v2">
+				</div><!-- end rank -->	
+				<div class="notification">
+					<img src="public/images/notif.png">
+					<div class="number-bubble d-shadow">
+						<p class="n-number">4</p>
+					</div><!-- end number-bubble -->
+				</div><!-- end notification -->
+			</div><!-- end header -->	
+		</div><!-- end header -->
+		<div class="wrapper">
+			<div class="club-page">
+				<div class="leaderboard-header">
+					<p class="back-p" onclick="match_page();"><img src="public/images/back.png">Go Back to Club</p>
+					<p class="season">August 2018</p>
+					<p class="season-title">SKT T1 Telecom Top Contributors</p>
+					<p class="season-end">Members</p>
+					<p class="season-time"><img src="public/images/members-lb.png">22,345</p>
+					<div class="data-fix">
+						<p class="season-end">Club Trophies</p>
+						<p class="season-time"><img src="public/images/trophies-lb.png">78,956</p>
+					</div><!-- end data-fix -->					
+				</div><!-- end leaderborad-header -->
+				<div class="data-points">
+					<p class="dp-rank">RANK</p>
+					<p class="dp-player">PLAYER</p>
+					<p class="dp-contributed">CONTRIBUTED</p>
+				</div><!-- end data-points -->
+				<div class="club-tile">
+					<div class="col-m1 col">
+						<p><span>#</span>1</p>
+					</div><!-- end col-m1 -->
+					<div class="col-m2 col">
+						<p><img src="public/images/avatar.png">Jovan1501</p>
+					</div><!-- end col-m2 -->
+					<div class="col-m3 col">
+						
+					</div><!-- end col-m3 -->
+					<div class="col-m4 col">
+						<p><img src="public/images/trophy-lb.png">20,224</p>
+					</div><!-- end col-m4 -->
+				</div><!-- end club-tile -->
+				<div class="club-tile clear-tile">
+					<div class="col-m1 col">
+						<p><span>#</span>2</p>
+					</div><!-- end col-m1 -->
+					<div class="col-m2 col">
+						<p><img src="public/images/avatar-8.png">ThisIsVeryLongName</p>
+					</div><!-- end col-m2 -->
+					<div class="col-m3 col">
+						
+					</div><!-- end col-m3 -->
+					<div class="col-m4 col">
+						<p><img src="public/images/trophy-lb.png">19,445</p>
+					</div><!-- end col-m4 -->
+				</div><!-- end club-tile -->
+				<div class="club-tile">
+					<div class="col-m1 col">
+						<p><span>#</span>3</p>
+					</div><!-- end col-m1 -->
+					<div class="col-m2 col">
+						<p><img src="public/images/avatar-4.png">SoloRenektonOnly</p>
+					</div><!-- end col-m2 -->
+					<div class="col-m3 col">
+						
+					</div><!-- end col-m3 -->
+					<div class="col-m4 col">
+						<p><img src="public/images/trophy-lb.png">18,294</p>
+					</div><!-- end col-m4 -->
+				</div><!-- end club-tile -->	
+				<div class="club-tile clear-tile">
+					<div class="col-m1 col">
+						<p><span>#</span>4</p>
+					</div><!-- end col-m1 -->
+					<div class="col-m2 col">
+						<p><img src="public/images/avatar-10.png">John Snow</p>
+					</div><!-- end col-m2 -->
+					<div class="col-m3 col">
+						
+					</div><!-- end col-m3 -->
+					<div class="col-m4 col">
+						<p><img src="public/images/trophy-lb.png">17,559</p>
+					</div><!-- end col-m4 -->
+				</div><!-- end club-tile -->		
+				<div class="club-tile">
+					<div class="col-m1 col">
+						<p><span>#</span>5</p>
+					</div><!-- end col-m1 -->
+					<div class="col-m2 col">
+						<p><img src="public/images/avatar-4.png">Alexzyyyy05</p>
+					</div><!-- end col-m2 -->
+					<div class="col-m3 col">
+						
+					</div><!-- end col-m3 -->
+					<div class="col-m4 col">
+						<p><img src="public/images/trophy-lb.png">17,287</p>
+					</div><!-- end col-m4 -->
+				</div><!-- end club-tile -->														
+				<div class="club-tile clear-tile">
+					<div class="col-m1 col">
+						<p><span>#</span>6</p>
+					</div><!-- end col-m1 -->
+					<div class="col-m2 col">
+						<p><img src="public/images/avatar-2.png">iLoveMemes</p>
+					</div><!-- end col-m2 -->
+					<div class="col-m3 col">
+						
+					</div><!-- end col-m3 -->
+					<div class="col-m4 col">
+						<p><img src="public/images/trophy-lb.png">14,245</p>
+					</div><!-- end col-m4 -->
+				</div><!-- end club-tile -->		
+				<div class="club-tile">
+					<div class="col-m1 col">
+						<p><span>#</span>7</p>
+					</div><!-- end col-m1 -->
+					<div class="col-m2 col">
+						<p><img src="public/images/avatar-12.png">Quarterback Fanboy</p>
+					</div><!-- end col-m2 -->
+					<div class="col-m3 col">
+						
+					</div><!-- end col-m3 -->
+					<div class="col-m4 col">
+						<p><img src="public/images/trophy-lb.png">14,116</p>
+					</div><!-- end col-m4 -->
+				</div><!-- end club-tile -->	
+				<div class="club-tile clear-tile">
+					<div class="col-m1 col">
+						<p><span>#</span>8</p>
+					</div><!-- end col-m1 -->
+					<div class="col-m2 col">
+						<p><img src="public/images/avatar-2.png">JaSamOvdeBiciklom</p>
+					</div><!-- end col-m2 -->
+					<div class="col-m3 col">
+						
+					</div><!-- end col-m3 -->
+					<div class="col-m4 col">
+						<p><img src="public/images/trophy-lb.png">14,098</p>
+					</div><!-- end col-m4 -->
+				</div><!-- end club-tile -->			
+				<div class="club-tile">
+					<div class="col-m1 col">
+						<p><span>#</span>9</p>
+					</div><!-- end col-m1 -->
+					<div class="col-m2 col">
+						<p><img src="public/images/avatar-5.png">Serbian Knight</p>
+					</div><!-- end col-m2 -->
+					<div class="col-m3 col">
+						
+					</div><!-- end col-m3 -->
+					<div class="col-m4 col">
+						<p><img src="public/images/trophy-lb.png">13,776</p>
+					</div><!-- end col-m4 -->
+				</div><!-- end club-tile -->
+				<div class="club-tile clear-tile">
+					<div class="col-m1 col">
+						<p><span>#</span>10</p>
+					</div><!-- end col-m1 -->
+					<div class="col-m2 col">
+						<p><img src="public/images/avatar.png">Fnatic Rekkless</p>
+					</div><!-- end col-m2 -->
+					<div class="col-m3 col">
+						
+					</div><!-- end col-m3 -->
+					<div class="col-m4 col">
+						<p><img src="public/images/trophy-lb.png">13,272</p>
+					</div><!-- end col-m4 -->
+				</div><!-- end club-tile -->
+				<div class="club-tile">
+					<div class="col-m1 col">
+						<p><span>#</span>11</p>
+					</div><!-- end col-m1 -->
+					<div class="col-m2 col">
+						<p><img src="public/images/avatar-10.png">xXxDestroyerxXx</p>
+					</div><!-- end col-m2 -->
+					<div class="col-m3 col">
+						
+					</div><!-- end col-m3 -->
+					<div class="col-m4 col">
+						<p><img src="public/images/trophy-lb.png">11,566</p>
+					</div><!-- end col-m4 -->
+				</div><!-- end club-tile -->
+				<div class="club-tile clear-tile">
+					<div class="col-m1 col">
+						<p><span>#</span>12</p>
+					</div><!-- end col-m1 -->
+					<div class="col-m2 col">
+						<p><img src="public/images/avatar-4.png">Fnatic Rekkless</p>
+					</div><!-- end col-m2 -->
+					<div class="col-m3 col">
+						
+					</div><!-- end col-m3 -->
+					<div class="col-m4 col">
+						<p><img src="public/images/trophy-lb.png">10,092</p>
+					</div><!-- end col-m4 -->
+				</div><!-- end club-tile -->																											
+			</div><!-- end club-page -->
+			<div class="chat">
+				<div class="chat-header">
+					<div class="messages-number">
+						<p>5 NEW MESSAGES</p>
+					</div><!-- end messages-number -->	
+				</div><!-- end chat-header -->
+				<div class="message-box">
+					<div class="message-content">
+						<img src="public/images/avatar-4.png" class="d-shadow">
+						<p class="first-p"><span>Alex325:</span> You guys think we will win this?</p>
+					</div><!-- end message-content -->
+					<div class="message-time">
+						<p>2 mins ago</p>
+					</div><!-- end time -->
+				</div><!-- end message-box -->
+				<div class="message-box">
+					<div class="message-content">
+						<img src="public/images/avatar.png" class="d-shadow">
+						<p class="second-p"><span>Jovan1501:</span> LoL Alex, whate else are we <br>
+						doing??? Of course we are winning!</p>
+					</div><!-- end message-content -->
+					<div class="message-time">
+						<p>2 mins ago</p>
+					</div><!-- end time -->
+				</div><!-- end message-box -->	
+				<div class="message-box">
+					<div class="message-content">
+						<img src="public/images/avatar-2.png" class="d-shadow">
+						<p class="first-p"><span>BestRivenNa:</span> Hmm, we are in big deficit?</p>
+					</div><!-- end message-content -->
+					<div class="message-time">
+						<p>2 mins ago</p>
+					</div><!-- end time -->
+				</div><!-- end message-box -->	
+				<div class="message-box">
+					<div class="message-content">
+						<img src="public/images/avatar.png" class="d-shadow">
+						<p class="second-p"><span>Jovan1501:</span> Yes, don't worry, trust me, <br>
+						Just play, we have enought time!</p>
+					</div><!-- end message-content -->
+					<div class="message-time">
+						<p>2 mins ago</p>
+					</div><!-- end time -->
+				</div><!-- end message-box -->	
+				<div class="message-box">
+					<div class="message-content">
+						<img src="public/images/avatar-5.png" class="d-shadow">
+						<p class="second-p"><span>JaSamBiciklom:</span> But <i class="b-w">@Jovan1501</i> we can't,<br>
+						there is just not enought players</p>
+					</div><!-- end message-content -->
+					<div class="message-time">
+						<p>2 mins ago</p>
+					</div><!-- end time -->
+				</div><!-- end message-box -->	
+				<div class="message-input">
+					<div class="input-box">
+						<input type="text" name="message" placeholder="Write a message to your team...">
+						<img src="public/images/smiley.png">
+					</div><!-- end input-box -->
+					<div class="message-button d-shadow">
+						<img src="public/images/send.png">
+					</div><!-- end message-button -->							
+				</div><!-- end message-input -->													
+			</div><!-- end chat -->
+			<div class="ads">
+			<iframe width="400" height="300" src="https://www.youtube.com/embed/ahotFjtqPdA?rel=0&amp;controls=0&autoplay=1&loop=1&mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div><!-- end ads --> 			
+		</div><!-- end wrapper -->
+	</div><!-- end container -->
+	<script src="views/leaderboard-controller.js"></script>
+	<script src="views/controller.js"></script>
+	<script src="views/match-controller.js"></script>
+</body>
+</html>

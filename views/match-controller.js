@@ -37,3 +37,7 @@ let logo,
 
 	function tooltipMenu() { tooltip.style.display = "block"; }
 	function tooltipClose() { tooltip.style.display = "none"; }
+
+	function lb_page() {
+		document.location = "leaderboard.html";
+	}

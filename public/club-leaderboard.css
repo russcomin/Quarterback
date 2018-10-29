@@ -1,0 +1,794 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Bold;
+    src: url(fonts/Rubik-Bold.ttf);
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.container {
+	width: 100%;
+	height: 960px;
+	background: #141b23;
+}
+
+.wrapper {
+	width: 1080px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.d-shadow {
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.62);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.62);
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.62);
+}
+
+.header-wrapper {
+	width: 100%;
+	height: 55px;
+	background: #0d1117;
+	border-bottom: 1px solid #2c3948;
+	position: fixed;
+	z-index: 1000;
+}
+
+.header {
+	width: 1110px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left; 
+	width: 192px;
+	height: 100%;
+	background: #141a22;
+	text-align: center;
+}
+
+.logo-img {
+	width: 130px;
+	height: 25px;
+	margin-top: 16px;
+	cursor: pointer;
+}
+
+.search {
+	width: 562px;
+	height: 100%;
+	float: left;
+}
+
+.search-img {
+	margin-left: 19px;
+	float: left;
+	margin-top: 16px;
+	cursor: pointer;
+}
+
+.search-field {
+	float: left;
+	background: none;
+	border: none;
+	color: white;
+	margin-left: 18px;
+	margin-top: 22px;
+	font-family: Roboto-Regular;
+	font-size: 11px;
+
+}
+
+.search-field::-webkit-input-placeholder {
+	font-family: Roboto-Bold;
+	font-size: 10px;
+	color: #787878;
+	letter-spacing: .2px;
+}
+
+.search-field:focus { outline: none; }
+
+.user {
+	float: left;
+	width: 215px;
+	height: 100%;
+}
+
+.user-avatar {
+	margin-top: 4px;
+	cursor: pointer;
+	float: left;
+}
+
+.user-name {
+	float: left;
+	font-family: Roboto-Bold;
+	font-size: 12px;
+	color: #40e449;
+	letter-spacing: .6px;
+	margin-left: 8px;
+	margin-top: 14px;
+}
+
+.club > span {
+	font-family: Roboto-Bold;
+	color: #636363;
+}
+
+.club {
+	float: left;
+	color: #fbfbfb;
+	font-family: Roboto-Regular;
+	font-size: 10px;
+	margin-top: 3px;
+	margin-left: 8px;
+	letter-spacing: .3px;
+}
+
+.arrow {
+	transition: .3s;
+	float: right;
+	width: 20px;
+	height: 18px;
+	border-radius: 3px;
+	background: #0a0e13;
+	border: 1px solid #293545;
+	cursor: pointer;
+	margin-top: -9px;
+	margin-right: 10px; 
+}
+
+.arrow:hover {
+	background: #293545;
+	transition: .3s;
+}
+
+.arrow-img {
+	float: left;
+	margin-top: 7.4px;
+	margin-left: 5px;
+}
+
+.rank {
+	float: left;
+	width: 90px;
+	height: 100%;
+}
+
+.rank-line {
+	border: none;
+	background: #202429;
+	width: 1px;
+	height: 29px;
+	margin-top: 14px;
+	margin-left: 7px;
+	float: left;
+}
+
+.rank-static {
+	float: left;
+	color: #575a5e;
+	font-family: Roboto-Bold;
+	font-weight: 800;
+	font-size: 9px;
+	margin-left: 25px;
+	margin-top: 15px;
+}
+
+.rank-name {
+	float: left;
+	font-family: Rubik-Bold;
+	font-size: 12px;
+	color: #4ae252;
+	letter-spacing: .5px;
+	margin-left: 14px;
+	margin-top: 3px;
+	cursor: pointer;
+}
+
+.v2 {
+	float: right;
+	margin-top: -12px;
+	margin-right: 4px;
+}
+
+.notification {
+	float: left;
+	height: 100%;
+	width: 42px;
+	text-align: center;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.number-bubble {
+	transition: .2s;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #3ac742;
+	border: 2px solid #0d1117;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: -33px;
+	text-align: center;
+	font-size: 8px;
+}
+
+.notification:hover > .number-bubble {
+	transition: .2s;
+	width: 14px;
+	height: 14px;
+	font-size: 10px;
+}
+
+.n-number {
+	font-family: Roboto-Bold;
+	color: white;
+}
+
+.wrapper {
+	width: 1082px;
+	height: 900px;
+}
+
+.club-page {
+	float: left;
+	width: 663px;
+	height: 851px;
+	background: #182029;
+	border: 1px solid #293440;
+	margin-top: 70px;
+}
+
+
+.chat {
+	margin-left: 14px;
+	float: left;
+	width: 400px;
+	height: 300px;
+	background: #182029;
+	border: 1px solid #293440;
+	margin-top: 70px;
+}
+
+.chat-header {
+	height: 25px;
+	float: left;
+	width: 100%;
+}
+
+.messages-number {
+	width: 131px;
+	height: 19px;
+	background: #3ac742;
+	margin: 0 auto;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	text-align: center;
+}
+
+.messages-number > p {
+	font-family: Rubik-Bold;
+	font-size: 9px;
+	color: white;
+	line-height: 19px;
+	letter-spacing: .5px;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.34);
+}
+
+.message-box {
+	width: 100%;
+	height: 41px;
+	float: left;
+}
+
+.message-content {
+	width: 308px;
+	height: 100%;
+	float: left;
+}
+
+.message-time {
+	width: 92px;
+	height: 100%;
+	float: left;
+}
+
+.message-content > img {
+	float: left;
+	width: 33px;
+	height: 33px;
+	margin-top: 4px;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+.message-content > p {
+	font-family: Roboto-Regular;
+	font-size: 11px;
+	color: #a2a2a2;
+	letter-spacing: .4px;
+	margin-left: 10px;
+	float: left;
+}
+
+.message-content > p > span {
+	font-family: Roboto-Bold;
+	color: #3dd447;
+	cursor: pointer;
+}
+
+/* p-fixes */
+
+.b-w { color: white; cursor: pointer; }
+
+.first-p {
+	margin-top: 13px;
+}
+
+.second-p {
+	margin-top: 8px;
+}
+
+.message-time > p {
+	color: #7b7b7b;
+	font-family: Roboto-Bold;
+	font-size: 9px;
+	letter-spacing: .4px;
+	margin-top: 14px;
+	text-align: center;
+	margin-right: 4px;
+}
+
+.message-input {
+	width: 100%;
+	height: 69px;
+	float: left;
+}
+
+.input-box {
+	width: 294px;
+	height: 49px;
+	background: #232d38;
+	border-radius: 50px;
+	margin-left: 16px;
+	margin-top: 10px;
+	float: left;
+}
+
+.input-box > input {
+	border: none;
+	background: none;
+	width: 190px;
+	color: white;
+	margin-top: 17px;
+	margin-left: 25px;
+	font-family: Roboto-Regular;
+	font-size: 11px;
+	letter-spacing: .5px;
+}
+
+.input-box > input:focus { outline: none; }
+
+.input-box > input::-webkit-input-placeholder {
+	font-family: Roboto-Regular;
+	font-size: 10px;
+	color: #9e9e9e;
+	letter-spacing: .1px;
+}
+
+.input-box > img {
+	float: right;
+	margin-top: 17px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.message-button {
+	transition: .2s;
+	width: 44px;
+	height: 44px;
+	background: #35b83d;
+	border: 3px solid #40e449;
+	border-radius: 50%;
+	float: right;
+	margin-top: 9px;
+	margin-right: 23px;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0px 0px 35px 8px rgba(0,0,0,0.36);
+	-moz-box-shadow: inset 0px 0px 35px 8px rgba(0,0,0,0.36);
+	box-shadow: inset 0px 0px 35px 8px rgba(0,0,0,0.36);
+	text-align: center;
+}
+
+.message-button:hover {
+	transition: .2s;
+	background: #40e449;
+}
+
+.message-button > img {
+	margin-top: 11px;
+}
+
+/* CLUBS MODAL */
+
+.clubs-menu {
+	position: absolute;
+	width: 438px;
+	height: 0px;
+	background: #182029;
+	border: 1px solid #293440;
+	z-index: 1;
+	margin-left: 520px;
+	border-top: none;
+	margin-top: 55px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.menu-wrapper {
+	width: 405px;
+	height: 220px;
+	margin: 0 auto;
+	margin-top: 15px;
+	display: none;
+}
+
+.menu-header {
+	width: 100%;
+	height: 20px;
+}
+
+.my-clubs {
+	font-family: Rubik-Bold;
+	font-size: 8px;
+	opacity: .4;
+	letter-spacing: 1px;
+	color: white;
+	float: left;
+	margin-left: 2px;
+}
+
+.more {
+	float: right;
+	font-size: 8px;
+	color: #46ca4e;
+	font-family: Roboto-Bold;
+	letter-spacing: .4px;
+	margin-top: -2px;
+	cursor: pointer;
+}
+
+.club-card {
+	width: 120px;
+	height: 188px;
+	background: #1c252f;
+	border: 1px solid #2d3844;
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.32);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.32);
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.32);
+	border-radius: 5px;
+	cursor: pointer;
+	background: url(images/active-clubb.png);
+	text-align: center;
+	float: left;
+}
+
+.club-rank {
+	font-family: Rubik-Bold;
+	font-size: 24px;
+	color: #404c58;
+	margin-top: 8px;
+}
+
+.team-img {
+	margin-top: 8px;
+}
+
+.club-name {
+	font-family: Roboto-Bold;
+	font-size: 12px;
+	color: white;
+	letter-spacing: .6px;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.54);
+	margin-top: 11px;
+}
+
+.members-icon {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.team-members {
+	vertical-align: middle;
+	display: inline-block;
+	font-family: Roboto-Bold;
+	font-size: 10px;
+	color: #3cc843;
+}
+
+.normal-card {
+	background: none;
+	background: #1c252f;
+	margin-left: 19px;
+}
+
+.first-half {
+	width: 100%;
+	height: 50%;
+	background: red;
+	position: absolute;
+	z-index: 1200;
+}
+
+.second-half {
+	width: 100%;
+	height: 50%;
+	background: blue;
+	position: absolute;
+	z-index: 1200;
+	top: 50%;
+}
+
+.ads {
+	width: 400px;
+	height: 300px;
+	float: left;
+	margin-top: 14px;
+	margin-left: 14px;
+	background: #182029;
+	border: 1px solid #293440;
+}
+
+.leaderboard-header {
+	width: 100%;
+	height: 171px;
+	float: left;
+	background-image: url(images/leaderboard-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.back-p {
+	float: left;
+	margin-top: 20px;
+	margin-left: 32px;
+	font-family: Roboto-Bold;
+	font-size: 10px;
+	color: #8f8f8f;
+	letter-spacing: .1px;
+	vertical-align: middle;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.back-p > img {
+	padding-right: 7px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.season {
+	float: left;
+	font-family: Rubik-Bold;
+	font-size: 30px;
+	color: #ffffff;
+	letter-spacing: .2px;
+	width: 100%;
+	margin-left: 32px;
+	margin-top: 10px;
+}
+
+.season-title {
+	width: 100%;
+	float: left;
+	margin-left: 32px;
+	color: #ffffff;
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	margin-top: 5px;
+	letter-spacing: .5px;
+}
+
+.season-end {
+	color: #515962;
+	font-family: Rubik-Bold;
+	font-size: 10px;
+	float: left;
+	width: 100%;
+	margin-top: 18px;
+	margin-left: 32px;
+}
+
+.season-time {
+	float: left;
+	width: 100%;	
+	margin-top: 6px;
+	margin-left: 32px;
+	font-family: Roboto-Bold;
+	font-size: 18px;
+	color: #ffffff;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.season-time > img {
+	padding-right: 4px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-top: -4px;
+}
+
+.data-points {
+	width: 100%;
+	height: 30px;
+	background: #182029;
+	float: left;
+	margin-bottom: 3px;
+}
+
+.data-points > p {
+	font-family: Rubik-Bold;
+	font-size: 9px;
+	color: #6a6e72;
+	letter-spacing: .3px;
+	position: absolute;
+	line-height: 30px;
+}
+
+.data-points > .dp-rank {
+	margin-left: 28px;
+}
+
+.data-points > .dp-player {
+	margin-left: 125px;
+}
+
+.data-points > .dp-contributed {
+	margin-left: 554px;
+}
+
+.club-tile {
+	width: 100%;
+	height: 53px;
+	background: #1a232c;
+	border-top: 1px solid #26303c;
+	border-bottom: 1px solid #26303c;
+	float: left;
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.12);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.12);
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.12);
+}
+
+.col {
+	float: left;
+	height: 100%;
+}
+
+.col-m1 {
+	width: 80px;
+}
+
+.col-m1 > p {
+	font-family: Rubik-Bold;
+	font-size: 24px;
+	color: #43505c;
+	line-height: 50px;
+}
+
+.col-m1 > p > span {
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	color: #606f7e;
+}
+
+.col-m2 {
+	width: 220px;
+}
+
+.col-m2 > p {
+	vertical-align: middle;
+	display: inline-block;
+	font-family: Roboto-Bold;
+	font-size: 12px;
+	color: #ffffff;
+	letter-spacing: .2px;
+	margin-left: 5px;
+	margin-top: 6px;
+	cursor: pointer;
+}
+
+.col-m2 > p > img {
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+	display: inline-block;
+	padding-right: 13px;
+}
+
+.col-m3 {
+	width: 240px;
+}
+
+.col-m4 {
+	width: 94px;
+	text-align: center;
+}
+
+.col-m4 > p {
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	color: #ffffff;
+	letter-spacing: .3px;
+	line-height: 53px;
+}
+
+.col-m4 > p > img {
+	padding-right: 4px;
+}
+
+.clear-tile {
+	background: none;
+	border: none;	
+}
+
+.col-m1 {
+	text-align: center;
+}
+
+.col-m1 > .up {
+	margin-top: 24px;	
+}
+
+.col-m1 > .up-p {
+	font-family: Roboto-Bold;
+	font-size: 9px;
+	color: #3ccf45;
+}
+
+.col-m1 > .down-p {
+	font-family: Roboto-Bold;
+	font-size: 9px;
+	color: #cf3c3c;
+	margin-top: 24px;
+}
+
+.col-m1 > .down {
+	float: left;
+	margin-top: 4px;
+	margin-left: 18.4px;
+}
+
+.data-fix {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 110px;
+}
+
