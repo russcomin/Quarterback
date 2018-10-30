@@ -39,5 +39,5 @@ let logo,
 	function tooltipClose() { tooltip.style.display = "none"; }
 
 	function lb_page() {
-		document.location = "leaderboard.html";
+		document.location = "leaderboard-v2.html";
 	}

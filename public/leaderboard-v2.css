@@ -672,7 +672,7 @@ ul {
 }
 
 .data-points > .dp-leader {
-	margin-left: 377px;
+	margin-left: 369px;
 }
 
 .data-points > .dp-members {
@@ -727,7 +727,7 @@ ul {
 }
 
 .col-m3 {
-	width: 230px;
+	width: 210px;
 }
 
 .col-m3 > p {
@@ -753,12 +753,16 @@ ul {
 }
 
 .col-m5 {
-	width: 69px;
+	width: 89px;
 	text-align: center;
 }
 
-.col-m5 > img {
-	margin-top: 10px;
+.col-m5 > p {
+	line-height: 67px;
+	font-family: Roboto-Bold;
+	font-size: 11px;
+	color: #ffffff;
+	letter-spacing: .2px;
 	cursor: pointer;
 }
 
@@ -826,3 +830,4 @@ ul {
 	margin-top: 4px;
 	margin-left: 18.4px;
 }
+
